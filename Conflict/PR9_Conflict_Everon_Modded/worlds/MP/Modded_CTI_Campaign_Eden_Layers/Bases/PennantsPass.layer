@@ -1,0 +1,14 @@
+GenericEntity MainTent_PennantsPass : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_PennantsPass-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 8237.663 223.129 2164.276
+ angleY -58.216
+}

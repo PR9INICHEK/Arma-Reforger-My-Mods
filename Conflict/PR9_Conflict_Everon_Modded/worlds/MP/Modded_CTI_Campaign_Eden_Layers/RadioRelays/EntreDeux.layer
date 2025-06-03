@@ -1,0 +1,10 @@
+GenericEntity RadioStation_EntreDeux : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "#AR-Campaign_MapLocation_Tower_EntreDeux"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_EntreDeux-UC"
+  }
+ }
+ coords 5858.849 237.39 7259.799
+ angleY 107.764
+}

@@ -1,0 +1,15 @@
+GenericEntity MainTent_AndresBeacon : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_AndresBeacon"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_AndresBeacon-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 6852.69 83.067 8200.086
+ angleX 2.869
+ angleY -172.862
+}

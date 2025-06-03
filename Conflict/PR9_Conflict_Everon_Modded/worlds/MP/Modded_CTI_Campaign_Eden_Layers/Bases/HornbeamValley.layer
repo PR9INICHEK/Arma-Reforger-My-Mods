@@ -1,0 +1,14 @@
+GenericEntity MainTent_HornbeamValley : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
+   m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5376.891 25.469 8334.043
+ angleY -54.336
+}

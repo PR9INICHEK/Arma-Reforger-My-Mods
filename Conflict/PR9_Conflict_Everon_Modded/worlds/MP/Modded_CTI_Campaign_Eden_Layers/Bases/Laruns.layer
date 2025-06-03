@@ -1,0 +1,21 @@
+GenericEntity MainTent_Laruns : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Laruns"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Laruns-UC"
+   m_sMapLocationName "LocationLaruns"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 7403.191 114.351 5281.078
+ angleY 48.506
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0 -0.326 15
+  }
+ }
+}

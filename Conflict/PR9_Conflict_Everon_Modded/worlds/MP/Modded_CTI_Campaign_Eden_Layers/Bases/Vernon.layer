@@ -1,0 +1,22 @@
+GenericEntity MainTent_Vernon : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Vernon"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
+   m_sMapLocationName "LocationVernon"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 9128.483 77.32 2292.273
+ angleY 173.643
+ angleZ -1.421
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -0.053 -2.135 15
+  }
+ }
+}

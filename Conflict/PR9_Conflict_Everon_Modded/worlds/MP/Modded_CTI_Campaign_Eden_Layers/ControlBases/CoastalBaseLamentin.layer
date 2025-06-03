@@ -1,0 +1,23 @@
+GenericEntity MainTent_Lamentin : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+   m_sMapLocationName "LocationLamentin_Harbour"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 1089.461 2.781 6029.319
+ angleY -93.618
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 8.844 -0.062 18.807
+  }
+ }
+}

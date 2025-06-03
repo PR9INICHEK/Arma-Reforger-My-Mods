@@ -1,0 +1,17 @@
+GenericEntity MainTent_MilitaryBaseLevie : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
+   m_sMapLocationName "LocationLevie_MilitaryBase"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 7449.13 164.562 4306.381
+ angleY 104.519
+}

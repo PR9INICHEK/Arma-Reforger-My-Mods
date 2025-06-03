@@ -1,0 +1,16 @@
+GenericEntity MainTent_BlackLake : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_BlackLake"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_BlackLake-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 9452.499 209.48 2946.152
+ angleX -2
+ angleY 30.644
+ angleZ -0.842
+}

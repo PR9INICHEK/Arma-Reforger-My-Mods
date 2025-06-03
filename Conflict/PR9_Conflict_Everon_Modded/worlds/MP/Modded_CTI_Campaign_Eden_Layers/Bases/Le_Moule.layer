@@ -1,0 +1,22 @@
+GenericEntity MainTent_Le_Moule : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_LeMoule"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
+   m_sMapLocationName "LocationLeMoule"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 2439.405 104.159 5438.09
+ angleY 78.452
+ angleZ 3.946
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0.066 -0.963 15
+  }
+ }
+}

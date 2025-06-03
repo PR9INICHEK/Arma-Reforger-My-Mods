@@ -1,0 +1,21 @@
+GenericEntity MainTent_Tyrone : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Tyrone"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
+   m_sMapLocationName "C_LocationTyrone"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5007.142 49.293 8921.314
+ angleY 0.098
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0.001 -1.64 15
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GenericEntity MainTent_Durras : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Durras"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
+   m_sMapLocationName "C_LocationDurras"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 8895.638 96.284 2709.183
+ angleY 67.698
+ angleZ -1.722
+}
