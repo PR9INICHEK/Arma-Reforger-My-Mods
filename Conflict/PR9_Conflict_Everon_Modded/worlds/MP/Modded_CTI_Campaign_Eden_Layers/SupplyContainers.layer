@@ -1,0 +1,94 @@
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 4297.855 1.13 9532.504
+  angleY 45.123
+ }
+ {
+  coords 7841.875 254.531 4029.39
+  angleY -32.721
+ }
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 4317.285 1.125 9563.502
+  angleY -134.243
+ }
+ {
+  coords 7890.57 256.625 4006.571
+  angleY -51.694
+ }
+ {
+  coords 7829.86 254.531 4020.952
+  angleY -35.585
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 4431.428 5.813 11236.194
+  angleY 176.963
+ }
+ {
+  coords 10028.925 2.687 1594.854
+  angleY 106.207
+ }
+ {
+  coords 9941.11 2.541 1562.344
+  angleY 175.303
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1075.962 2.905 6084.289
+  angleY -56.136
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1047.79 2.857 6047.054
+  angleY -6.102
+ }
+ {
+  coords 5022.725 15.375 3946.365
+  angleY 13.511
+  {
+   GenericEntity {
+    ID "5D1ED922875C418B"
+    coords 4.183 0 -1.673
+   }
+   GenericEntity {
+    ID "5D1ED922875C41BB"
+    coords 4.184 0 -0.784
+   }
+  }
+ }
+ {
+  coords 3905.828 15.219 8416.606
+  angleY -84.701
+ }
+ {
+  coords 7595.885 166.832 4325.688
+  angleY -165.551
+ }
+ {
+  coords 7605.477 166.156 4234.577
+  angleY -74.936
+ }
+ {
+  coords 4331.587 1.125 9512.366
+  angleY -108.471
+ }
+ {
+  coords 7429.979 9.688 6796.036
+  angleY 125.189
+ }
+ {
+  coords 7817.885 254.531 4030.388
+  angleY 145.234
+ }
+}
