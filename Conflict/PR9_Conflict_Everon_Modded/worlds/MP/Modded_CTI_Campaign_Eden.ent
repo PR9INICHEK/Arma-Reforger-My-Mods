@@ -16,3 +16,48 @@ Layer Bases {
 Layer ControlBases {
  Index 4
 }
+Layer AmbientVehicleSpawnpoints {
+ Index 5
+}
+Layer SupplyContainers {
+ Index 6
+}
+Layer SupplyDepots {
+ Index 7
+}
+Layer HiddenSupplyCaches {
+ Index 8
+}
+Layer BasesSupplyPoints {
+ Index 9
+}
+Layer Posters {
+ Index 10
+}
+Layer Checkpoints {
+ Index 11
+}
+Layer Sandbags {
+ Index 12
+}
+Layer MachineGunNests {
+ Index 13
+}
+Layer AmbientPatrolSpawnpoints {
+ Index 14
+}
+Layer Barricades {
+ Index 15
+}
+Layer Bunkers {
+ Index 16
+}
+Layer RadioRelays {
+ Index 17
+}
+Layer Managers {
+ Index 18
+}
+Layer OtherStuff_Need_To_Combine {
+ Index 19
+}
