@@ -1,0 +1,20 @@
+GenericEntity MainTent_MilitaryDepot : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_MaidensBay"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_MaidensBay-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5228.621 34.428 10701.94
+ angleY 142.609
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -9.605 0 17.476
+  }
+ }
+}

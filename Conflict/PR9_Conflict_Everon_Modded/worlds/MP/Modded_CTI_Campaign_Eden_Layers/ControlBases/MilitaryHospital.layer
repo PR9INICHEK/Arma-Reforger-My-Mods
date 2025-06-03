@@ -1,0 +1,17 @@
+GenericEntity MainTent_MilitaryHospital : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-MapLocation_MilitaryHospital"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
+   m_sMapLocationName "LocationTyrone_MilitaryHospital"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 3938.822 15.811 8455.689
+ angleY -85.707
+}

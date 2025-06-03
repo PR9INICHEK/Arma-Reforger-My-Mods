@@ -1,0 +1,20 @@
+GenericEntity MainTent_OldWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_ShepherdsPond"
+   m_sBaseNameUpper "#AR-MapLocation_OldWood"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 3294.714 120.147 4471.09
+ angleY 142.86
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0.001 0.727 15
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GenericEntity MainTent_SimonsWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_SimonsWood"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 6579.463 81.999 5135.611
+ angleY -70.199
+ angleZ -3.464
+}

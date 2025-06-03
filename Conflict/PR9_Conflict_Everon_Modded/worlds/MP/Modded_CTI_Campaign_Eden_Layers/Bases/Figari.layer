@@ -1,0 +1,15 @@
+GenericEntity MainTent_Figari : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Figari"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+   m_sMapLocationName "LocationFigari"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5125.889 52.666 5495.677
+ angleY 178.943
+}

@@ -1,0 +1,14 @@
+GenericEntity MainTent_TillersFind : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 3789.583 59.781 6997.688
+ angleY -49.512
+}

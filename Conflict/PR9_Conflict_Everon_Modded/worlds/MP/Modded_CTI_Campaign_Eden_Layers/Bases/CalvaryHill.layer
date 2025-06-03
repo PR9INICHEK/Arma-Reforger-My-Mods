@@ -1,0 +1,23 @@
+GenericEntity MainTent_CalvaryHill : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_CalvaryHill"
+   m_sBaseNameUpper "#AR-MapLocation_CalvaryHill"
+   m_sMapLocationName "LocationMilitaryBase_AA"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 3512.013 181.915 5816.282
+ angleX -4.292
+ angleY -123.664
+ angleZ -1.89
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 13.096 -0.092 13.384
+  }
+ }
+}

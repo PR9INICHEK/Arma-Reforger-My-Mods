@@ -1,0 +1,15 @@
+GenericEntity MainTent_Airfield : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_Airbase"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Airbase-UC"
+   m_sMapLocationName "LocationAirport"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 4887.966 26.486 12029.487
+ angleY 175.982
+}

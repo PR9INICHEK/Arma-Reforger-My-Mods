@@ -1,0 +1,26 @@
+GenericEntity MainTent_PinewoodLake : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_PinewoodLake"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 4439.679 58.718 6237.203
+ angleY 175.979
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 2.01 0.222 12.112
+   angleY 35.382
+  }
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   coords -6.675 0.222 -0.117
+   angleY 35.382
+  }
+ }
+}

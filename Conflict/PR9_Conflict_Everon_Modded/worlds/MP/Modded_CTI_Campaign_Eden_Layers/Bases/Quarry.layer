@@ -1,0 +1,15 @@
+GenericEntity MainTent_Quarry : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_Quarry"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Quarry-UC"
+   m_sMapLocationName "LocationMine"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 8793.418 196.594 3897.421
+ angleY -89.149
+}

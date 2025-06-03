@@ -1,0 +1,16 @@
+GenericEntity MainTent_Entre_Deux : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_EntreDeux"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+   m_sMapLocationName "LocationEntreDeux"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 6014.631 216.689 7178.424
+ angleY -135.967
+ angleZ -2.553
+}

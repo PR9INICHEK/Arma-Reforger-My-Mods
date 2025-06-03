@@ -1,0 +1,13 @@
+GenericEntity MainTent_SaintPierre : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-MapLocation_StPierre"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
+   m_sMapLocationName "LocationStPierre_Harbour"
+  }
+ }
+ coords 10172.649 2.628 1539.541
+ angleY -76.653
+}
