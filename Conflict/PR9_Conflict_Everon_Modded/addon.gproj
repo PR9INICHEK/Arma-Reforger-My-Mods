@@ -1,0 +1,8 @@
+GameProject {
+ ID "PR9ConflictEveronModded"
+ GUID "65871238A2ACBE86"
+ TITLE "PR9_Conflict_Everon_Modded"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
