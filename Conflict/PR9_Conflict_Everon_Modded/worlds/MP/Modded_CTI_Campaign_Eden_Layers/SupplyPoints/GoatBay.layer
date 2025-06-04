@@ -1,0 +1,27 @@
+GenericEntity SENTRY_TEAM_FIA_37 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 7065.706 99.583 4617.745
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -78.341 -18.386 -42.895
+   }
+   {
+    coords -157.865 -42.604 -129.026
+   }
+   {
+    coords -202.575 -65.051 -232.148
+   }
+   {
+    coords -169.186 -26.223 22.3
+   }
+   {
+    coords -33.123 -3.192 28.2
+   }
+  }
+ }
+}

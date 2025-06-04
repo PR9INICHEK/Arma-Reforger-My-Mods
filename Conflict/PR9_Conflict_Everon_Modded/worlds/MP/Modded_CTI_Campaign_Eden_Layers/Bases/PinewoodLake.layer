@@ -24,3 +24,50 @@ GenericEntity MainTent_PinewoodLake : "{1391CE8C0E255636}Prefabs/Systems/Militar
   }
  }
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_11 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4452.47 57.421 6188.292
+ }
+ SENTRY_TEAM_FIA_19 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4644.67 56.282 6236.194
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 63.05 4.756 36.04
+    }
+    {
+     coords 0.08 0 0.016
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_20 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4274.564 59.563 5854.209
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -49.841 7.911 -74.182
+    }
+    {
+     coords 0.028 0 0.071
+    }
+   }
+  }
+ }
+}

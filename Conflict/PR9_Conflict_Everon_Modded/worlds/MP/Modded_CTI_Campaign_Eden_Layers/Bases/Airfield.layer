@@ -13,3 +13,50 @@ GenericEntity MainTent_Airfield : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
  coords 4887.966 26.486 12029.487
  angleY 175.982
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_10 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4907.886 28.845 11730.102
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 2.185 -0.25 143.548
+    }
+    {
+     coords 0.514 -0.25 0.681
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_7 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4943.656 28.38 11979.468
+ }
+ SENTRY_TEAM_FIA_27 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4318.524 11.075 12213.433
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 102.898 9.968 -95.056
+    }
+    {
+     coords 0.037 0.003 -0.034
+    }
+   }
+  }
+ }
+}

@@ -21,3 +21,32 @@ GenericEntity MainTent_Lamentin : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
   }
  }
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 1071.705 2.72 6028.615
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 22.771 0.094 69.908
+    }
+    {
+     coords -81.023 0.125 2.023
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_1 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 1292.724 37.716 6038.14
+ }
+}

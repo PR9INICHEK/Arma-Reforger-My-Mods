@@ -21,3 +21,12 @@ GenericEntity MainTent_CalvaryHill : "{1391CE8C0E255636}Prefabs/Systems/Military
   }
  }
 }
+GenericEntity FIRE_TEAM_FIA_8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 3349.928 159.932 5765.312
+}

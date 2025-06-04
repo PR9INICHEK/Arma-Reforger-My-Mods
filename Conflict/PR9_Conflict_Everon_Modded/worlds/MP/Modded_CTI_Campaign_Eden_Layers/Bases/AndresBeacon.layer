@@ -13,3 +13,35 @@ GenericEntity MainTent_AndresBeacon : "{1391CE8C0E255636}Prefabs/Systems/Militar
  angleX 2.869
  angleY -172.862
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_11 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 6907.698 70.137 8616.323
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -65.381 -4.162 25.206
+    }
+    {
+     coords -51.409 0.605 -45.764
+    }
+    {
+     coords -6.928 3.183 -48.776
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_9 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 6877.277 67.435 8640.186
+ }
+}

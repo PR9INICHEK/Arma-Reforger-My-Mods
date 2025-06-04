@@ -19,3 +19,41 @@ GenericEntity MainTent_Gravette : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
   }
  }
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_18 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4143.957 39.876 7758.793
+ }
+ FIRE_TEAM_FIA_50 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 3825.896 3.844 7762.046
+ }
+ SENTRY_TEAM_FIA_61 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3868.777 14.082 7859.938
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 11.391 -6.339 201.22
+    }
+    {
+     coords 39.525 4.169 434.486
+    }
+   }
+  }
+ }
+}

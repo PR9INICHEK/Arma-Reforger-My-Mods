@@ -13,3 +13,12 @@ GenericEntity MainTent_SimonsWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryB
  angleY -70.199
  angleZ -3.464
 }
+GenericEntity FIRE_TEAM_FIA_15 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 6526.527 87.024 5278.794
+}

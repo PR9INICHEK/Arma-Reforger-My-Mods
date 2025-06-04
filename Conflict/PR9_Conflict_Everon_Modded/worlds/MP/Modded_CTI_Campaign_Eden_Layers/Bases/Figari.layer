@@ -13,3 +13,12 @@ GenericEntity MainTent_Figari : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
  coords 5125.889 52.666 5495.677
  angleY 178.943
 }
+GenericEntity FIRE_TEAM_FIA_17 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5263.642 64.215 5323.333
+}

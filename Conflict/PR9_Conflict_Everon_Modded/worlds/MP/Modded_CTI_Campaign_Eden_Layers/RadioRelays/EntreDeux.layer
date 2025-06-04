@@ -8,3 +8,12 @@ GenericEntity RadioStation_EntreDeux : "{522DCD528AE27052}Prefabs/Systems/Milita
  coords 5858.849 237.39 7259.799
  angleY 107.764
 }
+GenericEntity FIRE_TEAM_FIA_25 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5848.268 235.303 7253.672
+}

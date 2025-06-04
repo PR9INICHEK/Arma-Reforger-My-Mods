@@ -15,3 +15,35 @@ GenericEntity MainTent_MilitaryHospital : "{1391CE8C0E255636}Prefabs/Systems/Mil
  coords 3938.822 15.811 8455.689
  angleY -85.707
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_5 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3945.5 15.704 8492.848
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -23.032 -0.484 -92.482
+    }
+    {
+     coords -104.723 -3.609 -84.213
+    }
+    {
+     coords -119.559 -4.007 -1.938
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_5 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 3901.461 15.323 8434.833
+ }
+}
