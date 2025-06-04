@@ -15,3 +15,21 @@ GenericEntity MainTent_CoastalBase_Chotain : "{1391CE8C0E255636}Prefabs/Systems/
  coords 7473.945 7.866 6694.601
  angleY -18.505
 }
+GenericEntity SENTRY_TEAM_FIA_1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 7491.055 6.604 6714.259
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -59.512 3.049 44.787
+   }
+   {
+    coords -99.864 3.085 -11.197
+   }
+  }
+ }
+}

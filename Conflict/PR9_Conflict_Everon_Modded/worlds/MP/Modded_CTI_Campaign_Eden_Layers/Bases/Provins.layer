@@ -13,3 +13,22 @@ GenericEntity MainTent_Provins : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
  coords 5573.916 89.079 5895.073
  angleY 9.853
 }
+GenericEntity AT_TEAM_FIA_25 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5413.61 78.632 5695.114
+ angleX 0.886
+ angleY 8.239
+ angleZ 0.128
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.383 0.121 5.479
+   angleX -0.895
+   angleY -8.238
+  }
+ }
+}

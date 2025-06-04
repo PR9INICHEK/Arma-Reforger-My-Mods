@@ -14,3 +14,12 @@ GenericEntity MainTent_Entre_Deux : "{1391CE8C0E255636}Prefabs/Systems/MilitaryB
  angleY -135.967
  angleZ -2.553
 }
+GenericEntity FIRE_TEAM_FIA_16 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5758.888 216.846 7054.987
+}

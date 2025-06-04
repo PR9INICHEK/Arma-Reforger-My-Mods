@@ -12,3 +12,32 @@ GenericEntity MainTent_HornbeamValley : "{1391CE8C0E255636}Prefabs/Systems/Milit
  coords 5376.891 25.469 8334.043
  angleY -54.336
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_10 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5329.865 26.626 8396.682
+ }
+ SENTRY_TEAM_FIA_64 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5608.667 69.549 8162.819
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -128.143 5.25 -209.286
+    }
+    {
+     coords -481.114 73.786 -647.422
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,98 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_22 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3351.892 120.277 5111.351
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -103.075 -5.464 77.759
+    }
+    {
+     coords -0.016 -0.001 0.018
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_23 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3029.328 114.132 5189.776
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 98.541 5.09 37.885
+    }
+    {
+     coords 0.106 -0.009 0.064
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_40 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3000.55 121.982 5495.358
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -79.157 -3.211 94.102
+    }
+    {
+     coords -160.355 -5.928 123.701
+    }
+    {
+     coords -270.273 -7.613 128.952
+    }
+    {
+     coords -331.022 -11.381 157.694
+    }
+    {
+     coords -386.539 -14.983 232.709
+    }
+    {
+     coords -153.194 -5.424 241.542
+    }
+    {
+     coords -39.635 0.825 162.546
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_41 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3444.778 118.827 4978.456
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -20.879 -1.413 -83.461
+    }
+    {
+     coords -56.762 0.349 -112.724
+    }
+    {
+     coords -137.799 -0.15 -96.62
+    }
+    {
+     coords -170.91 -2.124 -38.449
+    }
+    {
+     coords -111.012 2.881 36.81
+    }
+   }
+  }
+ }
+}

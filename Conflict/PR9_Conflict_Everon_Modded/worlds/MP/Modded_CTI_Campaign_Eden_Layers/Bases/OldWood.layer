@@ -18,3 +18,12 @@ GenericEntity MainTent_OldWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
   }
  }
 }
+GenericEntity FIRE_TEAM_FIA_14 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 3308.521 115.634 4395
+}

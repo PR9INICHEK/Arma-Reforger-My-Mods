@@ -18,3 +18,28 @@ GenericEntity MainTent_MilitaryDepot : "{1391CE8C0E255636}Prefabs/Systems/Milita
   }
  }
 }
+GenericEntity SENTRY_TEAM_FIA_30 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 4987.004 30.868 10593.056
+ angleY -20.38
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -141.294 1.406 -2.704
+   }
+   {
+    coords -122.074 11.584 -127.057
+   }
+   {
+    coords 38.714 5.934 -80.465
+   }
+   {
+    coords 109.867 7.052 -51.219
+   }
+  }
+ }
+}

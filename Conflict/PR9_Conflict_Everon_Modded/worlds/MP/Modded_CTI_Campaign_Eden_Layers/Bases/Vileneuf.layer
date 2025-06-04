@@ -19,3 +19,12 @@ GenericEntity MainTent_Vileneuf : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
   }
  }
 }
+GenericEntity FIRE_TEAM_FIA_24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 2831.793 86.518 6329.278
+}

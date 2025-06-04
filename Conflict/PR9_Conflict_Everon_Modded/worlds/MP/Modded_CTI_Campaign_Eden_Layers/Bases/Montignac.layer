@@ -21,3 +21,59 @@ GenericEntity MainTent_Montignac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBa
   }
  }
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_43 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4638.017 160.411 6915.8
+ }
+ FIRE_TEAM_FIA_44 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4733.842 162.499 6998.693
+ }
+ FIRE_TEAM_FIA_45 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4751.167 160.967 7153.148
+ }
+ FIRE_TEAM_FIA_46 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4787.12 167.714 6918.276
+ }
+ FIRE_TEAM_FIA_47 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4849.31 167.196 6917.554
+ }
+ FIRE_TEAM_FIA_48 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4879.684 170.98 7036.141
+ }
+}

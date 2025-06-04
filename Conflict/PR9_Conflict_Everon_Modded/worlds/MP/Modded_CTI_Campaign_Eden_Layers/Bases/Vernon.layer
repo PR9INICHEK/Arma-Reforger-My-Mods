@@ -20,3 +20,56 @@ GenericEntity MainTent_Vernon : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
   }
  }
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_23 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 9247.894 58.821 2067.012
+ }
+ SENTRY_TEAM_FIA_33 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9329.498 84.486 2225.195
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -69.105 -0.087 57.577
+    }
+    {
+     coords -119.449 6.826 112.156
+    }
+    {
+     coords -152.427 -0.067 116.294
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_34 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9107.287 73.552 2073.585
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -47.14 3.797 34.278
+    }
+    {
+     coords -87.049 7.495 57.486
+    }
+    {
+     coords -134.539 11.624 103.169
+    }
+   }
+  }
+ }
+}

@@ -8,3 +8,12 @@ GenericEntity RadioStation_Regina : "{522DCD528AE27052}Prefabs/Systems/MilitaryB
  coords 7689.868 342.063 3055.818
  angleY 165.717
 }
+GenericEntity FIRE_TEAM_FIA_26 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 7692.978 341.214 3085.818
+}
