@@ -112,6 +112,21 @@ GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  }
  coords 4945.548 2.261 3878.742
 }
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5045.674 2.225 3834.663
+ angleY 90.685
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5075.571 5.818 3860.242
+ angleY 80.396
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.309 -0.94
+   angleY -92.857
+  }
+ }
+}
 $grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  {
   coords 5135.394 15.012 4071.169
@@ -177,4 +192,18 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  }
  coords 4936.062 2.156 3903.763
  angleY 16.572
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 5022.725 15.375 3946.365
+ angleY 13.511
+ {
+  GenericEntity {
+   ID "5D1ED922875C418B"
+   coords 4.183 0 -1.673
+  }
+  GenericEntity {
+   ID "5D1ED922875C41BB"
+   coords 4.184 0 -0.784
+  }
+ }
 }

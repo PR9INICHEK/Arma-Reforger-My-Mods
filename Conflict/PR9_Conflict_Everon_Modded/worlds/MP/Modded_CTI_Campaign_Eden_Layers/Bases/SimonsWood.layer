@@ -28,6 +28,15 @@ GenericEntity MainTent_SimonsWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryB
  angleY -70.199
  angleZ -3.464
 }
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 6618.426 82.731 5167.05
+ angleX 3.167
+ angleY -1.967
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 6624.522 77.598 5077.192
+ angleY 118.48
+}
 GenericEntity FIRE_TEAM_FIA_15 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

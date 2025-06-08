@@ -51,6 +51,14 @@ GenericEntity MainTent_Vileneuf : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
   }
  }
 }
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 2858.825 81.201 6436.084
+ angleY -115.542
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 2952.552 78.418 6555.573
+ angleY 56.884
+}
 GenericEntity FIRE_TEAM_FIA_24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

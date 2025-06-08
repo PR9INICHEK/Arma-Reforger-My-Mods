@@ -1,22 +1,23 @@
 GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
- coords 9395.452 46.06 1904.65
- angleY -77.81
- {
-  GenericEntity {
-   ID "5CC6B4B0D5E06037"
-   coords 1.217 0 1.862
-   angleY 109.879
-  }
- }
+ coords 8567.273 126.273 3312.435
+ angleY 98.442
 }
 $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
  {
-  coords 9427.875 45.049 1893.199
-  angleY -135.273
+  coords 8602.254 124.511 3300.784
+  angleY -178.518
  }
  {
-  coords 9418.362 50.023 1916.068
-  angleY -19.357
+  coords 8574.979 127.474 3313.547
+  angleY -178.518
+ }
+ {
+  coords 8572.736 132.02 3334.996
+  angleY -41.411
+ }
+ {
+  coords 8608.564 129.138 3324.87
+  angleY 9.584
  }
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
@@ -30,10 +31,8 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
    }
   }
  }
- coords 9388.536 46.555 1912.257
- angleX -1.265
- angleY 132.361
- angleZ 0.059
+ coords 8552.796 126.977 3312.085
+ angleY 149.005
 }
 $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
  {
@@ -42,9 +41,9 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
     m_bLive 1
    }
   }
-  coords 9423.54 47.556 1904.88
-  angleX 14.036
-  angleZ -0.868
+  coords 8580.129 128.246 3320.09
+  angleX 13.191
+  angleZ -2.613
  }
  {
   components {
@@ -52,10 +51,10 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
     m_bLive 1
    }
   }
-  coords 9423.35 46.729 1901.77
-  angleX 18.065
-  angleY -0.088
-  angleZ -3.488
+  coords 8583.84 127.775 3317.06
+  angleX 3.252
+  angleY 0.882
+  angleZ 11
  }
  {
   components {
@@ -63,10 +62,10 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
     m_bLive 1
    }
   }
-  coords 9425.996 46.462 1899.839
-  angleX 18.065
-  angleY -0.088
-  angleZ -3.488
+  coords 8587.68 129.16 3323.29
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
  }
  {
   components {
@@ -74,10 +73,10 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
     m_bLive 1
    }
   }
-  coords 9429.348 45.946 1895.864
-  angleX 18.065
-  angleY -0.088
-  angleZ -3.488
+  coords 8591.95 128.419 3321.27
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
  }
  {
   components {
@@ -85,10 +84,10 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
     m_bLive 1
    }
   }
-  coords 9425.94 45.717 1896.468
-  angleX 18.065
-  angleY -0.088
-  angleZ -3.488
+  coords 8596.229 127.321 3316.518
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
  }
  {
   components {
@@ -96,9 +95,20 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
     m_bLive 1
    }
   }
-  coords 9428.458 47.253 1902.682
-  angleX 11.25
-  angleY 0.334
-  angleZ -3.381
+  coords 8603.332 127.525 3318.525
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 8604.284 126.291 3312.971
+  angleX 18.112
+  angleY 0.978
+  angleZ 12.118
  }
 }

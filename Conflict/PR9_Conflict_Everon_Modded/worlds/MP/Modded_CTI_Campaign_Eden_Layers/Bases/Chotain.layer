@@ -65,6 +65,10 @@ GenericEntity MainTent_Chotain : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
  angleY -132.859
  angleZ -2.328
 }
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 7053.219 118.831 6031.875
+ angleY 138.594
+}
 GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  coords 7018.454 117.12 5970.862
  angleY -35.131

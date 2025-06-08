@@ -18,6 +18,14 @@ GenericEntity MainTent_MilitaryDepot : "{1391CE8C0E255636}Prefabs/Systems/Milita
   }
  }
 }
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5249.472 34.883 10667.516
+ angleY -89.262
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5298.813 34.414 10719.538
+ angleY 74.242
+}
 GenericEntity SENTRY_TEAM_FIA_30 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

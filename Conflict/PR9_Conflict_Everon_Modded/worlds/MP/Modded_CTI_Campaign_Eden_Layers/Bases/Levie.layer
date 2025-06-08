@@ -77,6 +77,12 @@ GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 7488.525 142.757 4653.941
  angleY 34.582
 }
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 7456.592 137.147 4737.094
+ angleX 0.359
+ angleY -99.802
+ angleZ 2.769
+}
 GenericEntity SENTRY_TEAM_FIA_43 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -97,6 +103,10 @@ GenericEntity SENTRY_TEAM_FIA_43 : "{9273AB931008C271}Prefabs/Systems/AmbientPat
    }
   }
  }
+}
+GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
+ coords 7454.021 137.523 4727.203
+ angleY -65.152
 }
 GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {
  coords 7505.734 137.393 4735.089

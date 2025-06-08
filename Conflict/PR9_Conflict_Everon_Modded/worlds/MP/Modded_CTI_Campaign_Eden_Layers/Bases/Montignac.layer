@@ -49,6 +49,17 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleY 42.317
  }
 }
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 5118.542 170.92 6903.708
+ angleY -138.484
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.054 -0.94
+   angleY -92.857
+  }
+ }
+}
 GenericEntity MainTent_Montignac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -69,6 +80,22 @@ GenericEntity MainTent_Montignac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBa
   GenericEntity {
    ID "5CCED514A5908822"
    coords -0.002 1.307 15.014
+  }
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5185.511 171.443 6970.962
+ angleY 133.807
+ {
+  GenericEntity {
+   ID "5CC6B4BF5DDEF861"
+   coords -2.798 0.072 -2.25
+   angleY -76.767
+  }
+  GenericEntity {
+   ID "5E5AD06D797113DE"
+   coords 2.193 0.067 -2.338
+   angleY -99.208
   }
  }
 }

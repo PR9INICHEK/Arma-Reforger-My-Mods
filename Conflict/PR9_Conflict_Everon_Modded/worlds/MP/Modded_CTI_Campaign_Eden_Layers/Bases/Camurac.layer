@@ -27,6 +27,14 @@ GenericEntity MainTent_Camurac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
  coords 6635.185 5.902 3119.359
  angleY 169.959
 }
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 6601.89 6.202 3102.842
+ angleY 153.085
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 6686.01 11.34 3051.485
+ angleY -177.529
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {

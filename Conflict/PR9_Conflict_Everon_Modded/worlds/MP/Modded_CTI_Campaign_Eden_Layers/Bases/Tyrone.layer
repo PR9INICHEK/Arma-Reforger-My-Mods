@@ -62,6 +62,25 @@ GenericEntity : "{60F851178E5A1E0F}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 4983.367 37.312 9099.604
  angleY -153.656
 }
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5070.727 48.662 8914.913
+ angleY 67.276
+ angleZ -5.684
+ {
+  GenericEntity {
+   ID "5CCCBED96B5A22B1"
+   coords 2.93 0 -1.214
+   angleX -2.08
+   angleY -71.27
+   angleZ 4.447
+  }
+ }
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5032.892 41.446 9014.437
+ angleY 11.525
+ angleZ -1.048
+}
 GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  coords 4881.356 35.69 9103.943
  angleY 35.566

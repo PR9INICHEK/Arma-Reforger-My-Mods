@@ -81,6 +81,24 @@ GenericEntity MainTent_Laruns : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
   }
  }
 }
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 7452.53 110.303 5334.355
+ angleX -8.538
+ angleY 74.959
+ angleZ 0.98
+ {
+  GenericEntity {
+   ID "5CC6B4BF5DDEF861"
+   coords -2.802 0.244 -2.286
+   angleY -76.767
+  }
+  GenericEntity {
+   ID "5E5AD06D797113DE"
+   coords 2.191 0.098 -2.352
+   angleY -99.208
+  }
+ }
+}
 GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I03_FIA_01.et" {
  coords 7566.376 89.591 5475.544
  angleY 160.495

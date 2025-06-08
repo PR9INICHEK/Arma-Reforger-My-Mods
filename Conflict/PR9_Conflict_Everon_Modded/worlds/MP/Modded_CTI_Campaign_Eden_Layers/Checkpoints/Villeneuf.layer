@@ -1,6 +1,30 @@
-GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
- coords 2952.552 78.418 6555.573
- angleY 56.884
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 3001.729 28.808 6953.782
+  angleY -30.772
+ }
+ {
+  coords 2982.901 28.323 6961.398
+  angleY -10.631
+  angleZ 8.598
+  {
+   GenericEntity {
+    ID "5CC6ADB1E43AEBF8"
+    {
+     DecalEntity {
+      ID "56E0B29E17039037"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2994.963 28.27 6954.054
+  angleX -13.479
+  angleY -1.525
+  angleZ -2.438
+ }
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {

@@ -93,6 +93,10 @@ GenericEntity MainTent_Provins : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
 GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
  coords 5486.487 96.127 6087.397
 }
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5534.842 88.882 5895.88
+ angleY -175.522
+}
 GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
  coords 5571 88.403 5858.812
  angleY -72
