@@ -17,3 +17,17 @@ GenericEntity FIRE_TEAM_FIA_26 : "{9273AB931008C271}Prefabs/Systems/AmbientPatro
  }
  coords 7692.978 341.214 3085.818
 }
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7681.231 340.875 3087.47
+ angleY 134.824
+}

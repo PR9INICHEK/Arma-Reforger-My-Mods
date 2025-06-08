@@ -15,6 +15,151 @@ GenericEntity MainTent_MilitaryBaseLevie : "{1391CE8C0E255636}Prefabs/Systems/Mi
  coords 7449.13 164.562 4306.381
  angleY 104.519
 }
+GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_LevieMilitary_FIA_01.et" {
+ {
+  GenericEntity {
+   ID "5E6ACA2F4A7016D5"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701731"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701748"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701784"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A7017C9"
+   {
+    GenericEntity {
+     ID "5E3A731B88FA2A43"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C08"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C2C"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C45"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C6C"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701664"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 7624.807 166.844 4315.112
+ angleY -162.665
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 7584.575 166.844 4328.01
+  angleY -167.146
+ }
+ {
+  coords 7601.512 166.156 4227.194
+  angleY -76.679
+ }
+}
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_bStopDespawnOnInteraction 1
+   m_aIncludedEditableEntityLabels {
+    51
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+   "faction affiliation" "CIV"
+  }
+ }
+ coords 7471.876 164.568 4327.672
+}
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  SENTRY_TEAM_FIA_4 {
   components {
@@ -85,4 +230,96 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
+ SENTRY_TEAM_FIA_36 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 7891.401 256.247 4046.83
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -124.433 -3.91 -109.818
+    }
+    {
+     coords -190.989 -20.979 -23.326
+    }
+    {
+     coords -131.391 -10.379 22.79
+    }
+    {
+     coords -84.101 -15.28 96.49
+    }
+    {
+     coords 27.777 -11.685 86.851
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ {
+  coords 7608.631 166.812 4320.824
+  angleY 106.904
+  {
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.054 -0.063 -4.186
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.073 -0.068 -4.994
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.238 -0.078 -6.075
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D1823E"
+    coords 3.62 -0.06 4.883
+    angleY 14.646
+   }
+  }
+ }
+ {
+  coords 7614.017 166.844 4276.842
+  angleY 105.821
+  {
+   GenericEntity {
+    ID "5D1ED92199D1825C"
+    coords 1.493 0 4.78
+   }
+   GenericEntity {
+    ID "5D1ED92199D182C3"
+    coords -2.628 0 4.205
+   }
+  }
+ }
+ {
+  coords 7877.662 256.625 3992.119
+  angleY -51.231
+ }
+ {
+  coords 7833.848 254.531 4040.59
+  angleY 56.334
+ }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7429.868 163.064 4313.774
+ angleX -0.555
+ angleY 18.997
+ angleZ -1.138
 }
