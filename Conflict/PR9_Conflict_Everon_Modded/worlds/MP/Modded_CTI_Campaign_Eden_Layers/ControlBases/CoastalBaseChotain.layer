@@ -15,6 +15,96 @@ GenericEntity MainTent_CoastalBase_Chotain : "{1391CE8C0E255636}Prefabs/Systems/
  coords 7473.945 7.866 6694.601
  angleY -18.505
 }
+GenericEntity : "{2390B74D062A2D13}Prefabs/Compositions/Locations/Eden/Base_ChotainMilitary_FIA_01.et" {
+ {
+  GenericEntity {
+   ID "5E6ACA2FA4C6BE5C"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6BEA5"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6B168"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6B1C1"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_bStopDespawnOnInteraction 1
+   m_aIncludedEditableEntityLabels {
+    51
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+   "faction affiliation" "CIV"
+  }
+ }
+ coords 7532.248 2.429 6683.727
+ angleY 59.392
+}
 GenericEntity SENTRY_TEAM_FIA_1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -32,4 +122,18 @@ GenericEntity SENTRY_TEAM_FIA_1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatr
    }
   }
  }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7456.896 7.875 6715.484
+ angleY -132.979
 }

@@ -1,3 +1,50 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7646.346 125.86 5022.581
+  angleY 113.018
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7395.837 136.219 4715.22
+  angleY -11.872
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7393.325 135.754 4754.852
+  angleY 119.046
+ }
+}
 GenericEntity MainTent_Levie : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -19,6 +66,17 @@ GenericEntity MainTent_Levie : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/C
   }
  }
 }
+GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
+ coords 7464.442 142.167 4738.911
+}
+GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I03_FIA_01.et" {
+ coords 7414.177 143.011 4721.915
+ angleY 101.331
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 7488.525 142.757 4653.941
+ angleY 34.582
+}
 GenericEntity SENTRY_TEAM_FIA_43 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -39,4 +97,24 @@ GenericEntity SENTRY_TEAM_FIA_43 : "{9273AB931008C271}Prefabs/Systems/AmbientPat
    }
   }
  }
+}
+GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {
+ coords 7505.734 137.393 4735.089
+ angleY -177.549
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7508.814 134.102 4793.763
+ angleX 11.368
+ angleY -152.375
+ angleZ 4.908
 }

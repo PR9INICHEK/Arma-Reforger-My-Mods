@@ -1,0 +1,16 @@
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    54
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 9388.536 46.555 1912.257
+ angleX -1.265
+ angleY 132.361
+ angleZ 0.059
+}

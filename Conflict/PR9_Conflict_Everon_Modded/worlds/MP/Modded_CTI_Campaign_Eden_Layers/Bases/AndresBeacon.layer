@@ -1,3 +1,18 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 7010.082 96.5 8374.378
+ angleY -175.565
+}
 GenericEntity MainTent_AndresBeacon : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -44,4 +59,20 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 6877.277 67.435 8640.186
  }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 6829.408 82.826 8199.928
+ angleX -7.042
+ angleY 41.062
+ angleZ -1.405
 }

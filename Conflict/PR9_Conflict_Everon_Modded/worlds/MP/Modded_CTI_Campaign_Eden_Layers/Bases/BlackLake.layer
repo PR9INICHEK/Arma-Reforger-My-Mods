@@ -14,3 +14,19 @@ GenericEntity MainTent_BlackLake : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBa
  angleY 30.644
  angleZ -0.842
 }
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 9464.003 208.138 2962.383
+ angleX -3.08
+ angleY 50.927
+ angleZ -0.955
+}

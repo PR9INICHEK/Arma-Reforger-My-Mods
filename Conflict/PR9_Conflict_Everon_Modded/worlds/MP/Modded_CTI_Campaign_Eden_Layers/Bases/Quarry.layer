@@ -13,19 +13,46 @@ GenericEntity MainTent_Quarry : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
  coords 8793.418 196.594 3897.421
  angleY -89.149
 }
-GenericEntity AT_TEAM_FIA_23 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ AT_TEAM_FIA_23 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 8662.661 181.104 3689.598
+  angleY -143.656
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.224 -0.094 6.045
+    angleY 143.656
+   }
+  }
+ }
+ FIRE_TEAM_FIA_31 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 8489.262 153.322 3631.787
+ }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_eGroupType TEAM_AT
-   m_fAILimitThreshold 0.66
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
   }
  }
- coords 8662.661 181.104 3689.598
- angleY -143.656
- {
-  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-   coords 0.224 -0.094 6.045
-   angleY 143.656
-  }
- }
+ coords 8787.454 198.051 3926.864
+ angleX 2.517
+ angleY 50.895
+ angleZ 0.26
 }

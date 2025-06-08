@@ -1,0 +1,45 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 7078.355 115.48 5378.51
+ angleY -1.925
+}
+GenericEntity AT_TEAM_FIA_24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 7102.776 117.245 5437.972
+ angleY -123.931
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.654 -0.119 6.723
+   angleY 140.936
+  }
+ }
+}
+GenericEntity FIA_Car_1 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7112.284 117.013 5448.011
+ angleZ -2.684
+}

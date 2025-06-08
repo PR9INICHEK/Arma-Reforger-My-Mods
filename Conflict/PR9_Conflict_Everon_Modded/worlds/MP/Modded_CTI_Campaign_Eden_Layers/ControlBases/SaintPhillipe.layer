@@ -1,0 +1,169 @@
+$grp GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ {
+  coords 4503.644 22.471 10744.939
+  angleY 170.102
+ }
+ {
+  coords 4397.461 17.616 10768.144
+  angleY 154.465
+ }
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4602.208 18.564 10677.342
+  angleY -104.119
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4551.071 16.979 10727.063
+  angleY 70.254
+ }
+}
+GenericEntity MainTent_SaintPhillipe : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-MapLocation_StPhillipe"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
+   m_sMapLocationName "LocationStPhillipe_Harbour"
+  }
+ }
+ coords 4405.805 1.643 11035.317
+ angleY 30.231
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -21.936 -0.008 37.67
+  }
+ }
+}
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 4434.091 5.811 11205.86
+  angleY 85.611
+ }
+ {
+  coords 4474.851 1.531 11132.911
+  angleY -151.527
+ }
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 4409.018 1.594 11211.245
+ angleY -97.026
+}
+$grp GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ {
+  coords 4690.884 23.208 10658.142
+  angleY -1.284
+ }
+ {
+  coords 4446.625 19.269 10576.582
+  angleY -4.017
+ }
+}
+GenericEntity : "{52F4E50D3A7C45C3}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_police_FIA_01.et" {
+ coords 4551.542 25.535 10747.312
+ angleY -11.113
+}
+GenericEntity : "{8650C85210C0B43A}Prefabs/Compositions/Misc/SubCompositions/Building/Warehouse_01_FIA_01.et" {
+ coords 4368.972 1.698 10988.233
+ angleY 53.588
+}
+$grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ {
+  coords 4430.895 7.171 10958.176
+  angleY 168.325
+ }
+ {
+  coords 4680.646 20.964 10759.575
+  angleY -178.313
+ }
+ {
+  coords 4410.372 6.778 10897.244
+  angleY -13.677
+ }
+}
+GenericEntity SENTRY_TEAM_FIA_9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 4435.658 8.961 11278.804
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords 118.971 10.715 -44.99
+   }
+   {
+    coords 88.343 3.651 -142.166
+   }
+   {
+    coords 12.945 -3.242 -97.37
+   }
+  }
+ }
+}
+$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ {
+  coords 4466.275 5.749 11212.697
+  angleY 88.861
+ }
+ {
+  coords 4486.781 1.531 11124.681
+  angleY -150
+ }
+}
+GenericEntity : "{A887806F6DA7E824}Prefabs/Compositions/Misc/SubCompositions/Building/LighthouseMedium_01_FIA_01.et" {
+ coords 3925.539 8.015 10769.287
+ angleY 114
+}
+GenericEntity : "{C9517330958DCD27}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_FIA_01.et" {
+ coords 4441.347 14.905 10940.319
+ angleY 80
+}
+GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhillipe_FIA_01.et" {
+ coords 4502.756 14.702 10771.987
+ {
+  GenericEntity {
+   ID "5E6ACA2329696EE2"
+   Flags 1049603
+  }
+ }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 4401.421 2.743 11047.482
+ angleY 159.315
+}

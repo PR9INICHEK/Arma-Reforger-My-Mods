@@ -1,0 +1,16 @@
+GenericEntity FIA_Truck_1 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    54
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 5411.787 78.486 5691.349
+ angleX 1.943
+ angleY 40.365
+ angleZ 0.477
+}

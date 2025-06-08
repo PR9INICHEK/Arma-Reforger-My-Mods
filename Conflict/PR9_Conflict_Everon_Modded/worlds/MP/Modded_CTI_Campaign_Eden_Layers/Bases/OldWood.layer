@@ -1,3 +1,18 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 3501.362 135.403 4476.935
+ angleY 83.157
+}
 GenericEntity MainTent_OldWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -26,4 +41,20 @@ GenericEntity FIRE_TEAM_FIA_14 : "{9273AB931008C271}Prefabs/Systems/AmbientPatro
   }
  }
  coords 3308.521 115.634 4395
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 3275.388 118.192 4455.146
+ angleX 1.383
+ angleY -39.752
+ angleZ -8.081
 }

@@ -1,3 +1,18 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 6695.853 9.725 3222.792
+ angleY 4.274
+}
 GenericEntity MainTent_Camurac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -11,4 +26,20 @@ GenericEntity MainTent_Camurac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
  }
  coords 6635.185 5.902 3119.359
  angleY 169.959
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 6629.614 5.221 3141.217
+ angleX -4.331
+ angleY -35.138
+ angleZ -4.587
 }
