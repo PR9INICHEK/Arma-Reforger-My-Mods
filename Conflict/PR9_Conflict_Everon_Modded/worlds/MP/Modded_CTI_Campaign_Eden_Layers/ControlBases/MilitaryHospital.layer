@@ -46,6 +46,10 @@ GenericEntity MainTent_MilitaryHospital : "{1391CE8C0E255636}Prefabs/Systems/Mil
  coords 3938.822 15.811 8455.689
  angleY -85.707
 }
+GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
+ coords 3876.591 15.281 8414.389
+ angleY -178.575
+}
 GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  coords 3917.112 15.312 8418.873
  angleY -82.588
@@ -65,6 +69,49 @@ GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
  coords 3826.151 11.48 8496.094
  angleX -3.905
  angleY -58.981
+}
+GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
+ coords 3917.48 13.883 8515.317
+ {
+  GenericEntity {
+   ID "5CC6B4B11E89361A"
+   coords -5.07 0 -4.004
+  }
+  GenericEntity {
+   ID "5CC6B4B11E89342B"
+   coords -2.578 -0.095 3.766
+   angleY 0
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936F9"
+   coords 5.351 0 3.22
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934B4"
+   coords -4.996 0 -4.766
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934E8"
+   coords 5.255 0 4.023
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934F1"
+   coords -0.36 -0.107 4.15
+   angleY 84.366
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E89372C"
+   coords 5.154 0 1.34
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E893744"
+   coords 5.231 0 2.67
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E89377E"
+   coords -4.788 0 -3.564
+  }
+ }
 }
 GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
  components {

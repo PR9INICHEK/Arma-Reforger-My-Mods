@@ -98,6 +98,129 @@ GenericEntity : "{52F4E50D3A7C45C3}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 4551.542 25.535 10747.312
  angleY -11.113
 }
+GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160980834246132}" {
+   Points + {
+    0 0 -20
+   }
+  }
+ }
+ coords 4451.8 1.887 11055.726
+ angleY 120.204
+ {
+  GenericEntity {
+   ID "5CC6B4B11E89370B"
+   coords 4.168 0 -3.274
+   {
+    GameEntity {
+     ID "5CB0D9933603DA88"
+     coords 0.238 0.872 -0.241
+    }
+    GenericEntity {
+     ID "5CB0D9933603DA84"
+     coords -0.146 0.867 -0.259
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8937E5"
+   coords 3.085 0 -3.172
+   {
+    GenericEntity {
+     ID "5CB0D9961B4C3BD5"
+     coords 0 0.194 0.02
+    }
+    GenericEntity {
+     ID "5CB0D9961B4C3BD7"
+     coords -0.039 0 0.007
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936CD"
+   coords 2.306 0 -3.933
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893654"
+   coords 3.964 0 -2.978
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893405"
+   coords -1.276 0.179 4.739
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936F9"
+   coords 5.355 0.171 3.544
+   angleY 8.368
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936EA"
+   coords 5.476 0 -3.833
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8935B6"
+   coords 3.748 0 -4.294
+   {
+    GenericEntity {
+     ID "5CB0D9910F799424"
+     coords 1.017 0 0.06
+    }
+    GenericEntity {
+     ID "5CB0D9910F799427"
+     coords -1.184 0 -0.03
+    }
+    GenericEntity {
+     ID "5CB0D9910F799422"
+     coords -0.154 0 0.066
+    }
+    GenericEntity {
+     ID "5CB0D9910F79942E"
+     coords -0.001 0.741 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BFB9A7B213"
+   coords 5.062 -0.016 -2.467
+   angleY -126.27
+  }
+  GenericEntity {
+   ID "5CC6B4BFB9A7B2CB"
+   coords 2.182 -0.138 -5.837
+   angleY -138.829
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934AE"
+   coords 2.195 0 -3.408
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934DC"
+   coords 5.516 0 -3.164
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934E8"
+   coords 5.26 0.198 4.348
+   angleY 32.674
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E89372C"
+   coords 5.159 0.099 1.667
+   angleY 7.772
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E893744"
+   coords 5.236 0.152 2.996
+   angleY -10.406
+  }
+ }
+}
 GenericEntity : "{8650C85210C0B43A}Prefabs/Compositions/Misc/SubCompositions/Building/Warehouse_01_FIA_01.et" {
  coords 4368.972 1.698 10988.233
  angleY 53.588

@@ -1,3 +1,7 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 7359.513 163.998 4274.676
+ angleY -68.172
+}
 GenericEntity MainTent_MilitaryBaseLevie : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
@@ -132,15 +136,9 @@ GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_Levi
   }
  }
 }
-$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
- {
-  coords 7624.807 166.844 4315.112
-  angleY -162.665
- }
- {
-  coords 7841.875 254.531 4029.39
-  angleY -32.721
- }
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 7624.807 166.844 4315.112
+ angleY -162.665
 }
 $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
  {
@@ -150,14 +148,6 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
  {
   coords 7601.512 166.156 4227.194
   angleY -76.679
- }
- {
-  coords 7890.57 256.625 4006.571
-  angleY -51.694
- }
- {
-  coords 7829.86 254.531 4020.952
-  angleY -35.585
  }
 }
 GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
@@ -181,6 +171,77 @@ GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicl
 GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
  coords 7533.946 166.844 4194.496
  angleY -140.972
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 7534.083 163.99 4393.799
+ angleX -2.16
+ angleY 3.567
+ {
+  GenericEntity {
+   ID "5CC6B4BB10618CA2"
+   coords 4.146 0 -4.118
+   {
+    GenericEntity {
+     ID "5CB0D996E74F360C"
+     coords 1.087 0 0.032
+    }
+    GenericEntity {
+     ID "5CB0D996E74F360F"
+     coords -0.876 0 -0.048
+    }
+    GenericEntity {
+     ID "5CB0D996E74F360B"
+     coords 0 0.666 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618E84"
+   coords 2.007 0 -4.231
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618EB8"
+   coords 5.503 0 -2.322
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618FEE"
+   coords 3.604 0 -2.973
+   {
+    GenericEntity {
+     ID "5CB0D993388817E2"
+     coords 0.088 0.861 -0.264
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B980DA08EA"
+   coords 3.851 0.1 -2.753
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618ED8"
+   coords 5.115 0 3.63
+  }
+  GenericEntity {
+   ID "5CC6B4BB6C3C365C"
+   coords 2.551 0 -3.318
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618F59"
+   coords 5.094 0 -2.624
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618F70"
+   coords 5.023 0 4.348
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618FCD"
+   coords 4.806 0.1 3.533
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618FD8"
+   coords 4.876 0.1 2.033
+  }
+ }
 }
 GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
  coords 7510.135 166.701 4212.704
@@ -256,33 +317,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- SENTRY_TEAM_FIA_36 {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_fAILimitThreshold 0.33
-   }
-  }
-  coords 7891.401 256.247 4046.83
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords -124.433 -3.91 -109.818
-    }
-    {
-     coords -190.989 -20.979 -23.326
-    }
-    {
-     coords -131.391 -10.379 22.79
-    }
-    {
-     coords -84.101 -15.28 96.49
-    }
-    {
-     coords 27.777 -11.685 86.851
-    }
-   }
-  }
- }
 }
 $grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
  {
@@ -324,14 +358,6 @@ $grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
  }
- {
-  coords 7877.662 256.625 3992.119
-  angleY -51.231
- }
- {
-  coords 7833.848 254.531 4040.59
-  angleY 56.334
- }
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
@@ -357,9 +383,5 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
  {
   coords 7605.477 166.156 4234.577
   angleY -74.936
- }
- {
-  coords 7817.885 254.531 4030.388
-  angleY 145.234
  }
 }

@@ -76,6 +76,18 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 5222.404 78.114 5040.941
  }
 }
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5172.657 51.698 5513.975
+  angleY 26.369
+ }
+ {
+  coords 5113.487 54.228 5457.415
+  angleX 0.841
+  angleY -159.995
+  angleZ 0.306
+ }
+}
 GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCache_Figari_FIA_01.et" {
  coords 5250.764 73.061 5337.823
 }
@@ -94,4 +106,8 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleX -2.71
  angleY 35.085
  angleZ -0.81
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 5060.851 54.344 5428.83
+ angleY -85.979
 }

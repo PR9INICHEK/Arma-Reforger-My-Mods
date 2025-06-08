@@ -171,6 +171,19 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  coords 4944.24 28.416 11863.354
  angleY 88.201
 }
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 4868.331 25.179 12046.349
+ angleX 0.04
+ angleY -116.259
+ angleZ 2.669
+ {
+  GenericEntity {
+   ID "5E5CB3014284530D"
+   coords -0.956 -0.045 0.779
+   angleY 97.378
+  }
+ }
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {

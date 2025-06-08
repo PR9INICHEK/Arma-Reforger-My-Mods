@@ -6,6 +6,22 @@ GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
  coords 4928.456 27.781 11548.407
  angleY 130.994
 }
+GenericEntity AT_TEAM_FIA_7 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 4918.603 27.741 11554.814
+ angleY 165.665
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.017 -0.022 6.008
+   angleY 173.933
+  }
+ }
+}
 GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
  coords 4939.848 27.791 11549.804
  angleY -172.888
@@ -123,5 +139,57 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   }
   coords 4901.766 26.668 11492.969
   angleY -69.098
+ }
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 4922.376 27.666 11545.244
+ angleY 159.308
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 2.403 0 -1.472
+  }
+  GenericEntity {
+   ID "5CC6B48E65457AB2"
+   coords -2.064 0 2.646
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D0D"
+   coords 2.848 0 -1.397
+  }
+  GenericEntity {
+   ID "5E5AD06EF546637B"
+   coords 2.293 0 -3.812
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D79"
+   coords -3.27 0 1.536
+   {
+    GenericEntity {
+     ID "52F07DE9F3BBC081"
+     coords -0.046 0.743 -0.011
+    }
+    GenericEntity {
+     ID "52F07DE9F3BBC170"
+     coords 0 0.368 0.005
+    }
+    GenericEntity {
+     ID "5CB0D9960149C45D"
+     coords 0.617 0.395 -0.006
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 2.83 0 -1.959
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 2.023 0 -2.138
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AFB"
+   coords -2.155 0 1.878
+  }
  }
 }

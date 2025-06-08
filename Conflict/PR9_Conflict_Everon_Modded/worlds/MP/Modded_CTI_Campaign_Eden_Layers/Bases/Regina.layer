@@ -89,6 +89,19 @@ GenericEntity : "{74D58E23F798FDF1}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 7286.827 139.056 2502.891
  angleY 57.307
 }
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 7325.523 138.117 2239.69
+ angleY -7.204
+ {
+  GenericEntity {
+   ID "5CCCBEE868D6B36C"
+   coords -2.605 -0.049 -0.008
+   angleX -0.692
+   angleY -93.314
+   angleZ 0.128
+  }
+ }
+}
 GenericEntity SENTRY_TEAM_FIA_78 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -107,6 +120,27 @@ GenericEntity SENTRY_TEAM_FIA_78 : "{9273AB931008C271}Prefabs/Systems/AmbientPat
    {
     coords 129.117 -4.762 20.551
    }
+  }
+ }
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 7372.612 139.496 2226.202
+ angleY 69.525
+ {
+  GenericEntity {
+   ID "5E5CB3014284530D"
+   coords -0.963 0 0.779
+   angleY 97.378
+  }
+  GenericEntity {
+   ID "5D1ED93DEBE99308"
+   coords -2.52 0.127 0.375
+   angleY -95.729
+  }
+  GenericEntity {
+   ID "5D1ED93DEBE99369"
+   coords -9.388 -0.379 0.245
+   angleY -116.218
   }
  }
 }
@@ -129,6 +163,11 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleX -1.799
  angleY 52.564
  angleZ -0.877
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 7242.641 140.214 2154.857
+ angleX 6.878
+ angleY 150
 }
 GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
  coords 7205.023 145.19 2324.232
