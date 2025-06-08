@@ -103,6 +103,10 @@ GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 7566.376 89.591 5475.544
  angleY 160.495
 }
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 7358.398 122.306 5202.508
+ angleY -45.886
+}
 GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
  coords 7558.335 82.526 5540.854
 }
@@ -118,6 +122,44 @@ GenericEntity FIRE_TEAM_FIA_19 : "{9273AB931008C271}Prefabs/Systems/AmbientPatro
   }
  }
  coords 7555.822 82.782 5501.334
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 7481.542 108.214 5255.674
+ angleY 160.286
+}
+$grp DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01.et" {
+ {
+  coords 7552.569 82.731 5505.062
+  angleX -89.972
+  angleY 160.279
+  angleZ -180
+ }
+ {
+  coords 7547.042 82.758 5501.631
+  angleX -89.98
+  angleY 130.252
+  angleZ 180
+ }
+ {
+  coords 7562.955 82.784 5493.819
+  angleX -89.98
+  angleY -79.813
+  angleZ 180
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 7429.288 112.639 5318.843
+  angleX -4.278
+  angleY 29.3
+  angleZ 5.772
+ }
+ {
+  coords 7446.674 111.59 5298.952
+  angleX -10.031
+  angleY 67.919
+  angleZ 1.194
+ }
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {

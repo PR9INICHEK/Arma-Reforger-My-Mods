@@ -17,6 +17,26 @@ GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/B
   }
  }
 }
+GenericEntity AT_TEAM_FIA_15 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 4023.993 109.666 6708.057
+ angleX 8.856
+ angleY 91.417
+ angleZ 1.103
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords -0.402 -0.031 6.173
+   angleX -0.885
+   angleY -91.4
+   angleZ 8.88
+  }
+ }
+}
 $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
  {
   coords 4003.253 105.724 6715.744
@@ -122,5 +142,61 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleX -8.042
   angleY -67.247
   angleZ -12.759
+ }
+}
+StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ coords 4032.151 -0.152 6711.98
+ angleX 9.05
+ angleY -148.634
+ angleZ 7.09
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 4030.345 110.645 6707.217
+ angleX -8.91
+ angleY -92.491
+ angleZ -0.499
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 2.225 0 -1.701
+  }
+  GenericEntity {
+   ID "5CC6B48E65457AB2"
+   coords -1.57 0 2.761
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D0D"
+   coords 2.669 0 -1.625
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D79"
+   coords -2.776 0 1.651
+   {
+    GenericEntity {
+     ID "52F07DE9F3BBC081"
+     coords -0.044 0.743 -0.01
+    }
+    GenericEntity {
+     ID "52F07DE9F3BBC170"
+     coords 0 0.368 0.006
+    }
+    GenericEntity {
+     ID "5CB0D9960149C45D"
+     coords 0.619 0.395 -0.005
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 2.652 0 -2.188
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 1.845 0 -2.367
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AFB"
+   coords -1.661 0 1.993
+  }
  }
 }

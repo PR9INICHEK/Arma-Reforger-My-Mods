@@ -94,6 +94,11 @@ GenericEntity : "{14C9DB955A3AF38F}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 4987.313 2.187 3822.343
  angleY -61
 }
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 4890.51 2.505 3890.655
+ angleX 3.237
+ angleY -57.24
+}
 GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
  coords 5008.265 19.067 4053.083
  angleY 0
@@ -126,6 +131,10 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
    angleY -92.857
   }
  }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 4904.209 2.167 3880.523
+ angleY -149.431
 }
 $grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  {

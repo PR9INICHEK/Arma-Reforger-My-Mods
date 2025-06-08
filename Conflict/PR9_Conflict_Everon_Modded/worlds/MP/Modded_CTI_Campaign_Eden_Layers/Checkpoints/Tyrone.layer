@@ -6,6 +6,30 @@ GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
  coords 4937.25 36.368 9183.537
  angleY -10.478
 }
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 4929.758 36.25 9183.337
+ angleX 0.815
+ angleY -24.386
+ angleZ -0.37
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.535 0 -2.238
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.801 0.021 -4.236
+   angleY -55.621
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.657 0 -2.614
+   angleY 103.572
+  }
+ }
+}
 GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
  coords 4924.13 36.38 9208.439
  angleY -120.793

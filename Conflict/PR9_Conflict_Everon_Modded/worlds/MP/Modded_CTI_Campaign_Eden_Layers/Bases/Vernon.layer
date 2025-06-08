@@ -1,3 +1,20 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 9090.266 79.253 2372.775
+ angleY -36.985
+ angleZ -3.193
+ {
+  GenericEntity {
+   ID "5CD2AC4DDB8764D9"
+   coords 1.682 0.014 0.736
+   angleY 93.99
+  }
+  GenericEntity {
+   ID "5CD2AC4DDB8764B7"
+   coords -1.896 0.092 -0.855
+   angleY -146.054
+  }
+ }
+}
 $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
  {
   components {
@@ -49,6 +66,20 @@ GenericEntity MainTent_Vernon : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
   GenericEntity {
    ID "5CCED514A5908822"
    coords -0.053 -2.135 15
+  }
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 9053.273 78.893 2280.208
+ angleY 139.41
+ angleZ -1.827
+ {
+  GenericEntity {
+   ID "5CCCBEE868D6B36C"
+   coords -2.604 -0.048 -0.011
+   angleX -0.982
+   angleY -93.141
+   angleZ 3.229
   }
  }
 }
@@ -109,6 +140,12 @@ GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
  coords 9169.689 74.493 2256.207
  angleY 153.944
  angleZ -5.635
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 9123.673 74.62 2256.648
+ angleX -1.807
+ angleY 178.872
+ angleZ -0.859
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {

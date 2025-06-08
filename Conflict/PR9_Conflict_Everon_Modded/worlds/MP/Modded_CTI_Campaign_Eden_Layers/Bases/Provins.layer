@@ -101,6 +101,11 @@ GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 5571 88.403 5858.812
  angleY -72
 }
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 5596.875 91.775 5949.226
+ angleX 2.609
+ angleY -4.587
+}
 GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  coords 5509.416 95.521 6024.074
  angleY 118.393
@@ -142,6 +147,42 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     }
    }
   }
+ }
+}
+DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01.et" {
+ coords 5513.298 95.551 6091.646
+ angleX -89.96
+ angleY 121.122
+ angleZ 180
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5631.312 90.437 5873.712
+  angleY 158.599
+  angleZ 2.974
+  {
+   GenericEntity {
+    ID "5E5CB3014284530D"
+    coords -0.955 -0.064 0.779
+    angleY 97.378
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99308"
+    coords -2.516 -0.09 0.375
+    angleY -95.729
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99369"
+    coords 5.418 0.237 -1.51
+    angleY -73.983
+   }
+  }
+ }
+ {
+  coords 5577.302 90.044 5921.642
+  angleX 3.761
+  angleY 52.415
+  angleZ 0.489
  }
 }
 GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {

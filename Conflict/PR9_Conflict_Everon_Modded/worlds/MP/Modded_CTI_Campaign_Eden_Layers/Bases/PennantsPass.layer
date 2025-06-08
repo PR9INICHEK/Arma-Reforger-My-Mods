@@ -109,3 +109,14 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleY 54.145
  angleZ -2.094
 }
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ components {
+  RoadNetworkBridgeComponent "{61609813A43CCAE8}" {
+   Points {
+    0 0 9 9 0 3 7 0 -5
+   }
+  }
+ }
+ coords 8178.215 221.407 2175.938
+ angleY -98.944
+}

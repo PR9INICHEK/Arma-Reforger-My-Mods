@@ -235,6 +235,42 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 1292.724 37.716 6038.14
  }
 }
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 1036.78 2.861 6013.265
+ angleY -179.217
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -5.397 0.079 2.877
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -4.977 0.136 4.765
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -4.854 0.077 2.887
+   angleY -129.705
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -4.615 0.04 1.713
+   angleY -104.623
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -5.653 0.093 3.204
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -5.041 0.114 4.092
+   angleY 42.427
+  }
+ }
+}
 GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
  coords 925.242 2.75 6058.799
  angleY 36.956

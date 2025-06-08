@@ -69,6 +69,12 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
  coords 7053.219 118.831 6031.875
  angleY 138.594
 }
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 6964.668 119.319 6033.064
+ angleX 1.548
+ angleY -60.464
+ angleZ -2.122
+}
 GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  coords 7018.454 117.12 5970.862
  angleY -35.131
@@ -84,6 +90,12 @@ GenericEntity FIRE_TEAM_FIA_32 : "{9273AB931008C271}Prefabs/Systems/AmbientPatro
   }
  }
  coords 6786.572 91.304 5686.415
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 6954.135 124.538 6091.853
+ angleX 6.753
+ angleY -40.294
+ angleZ 0.675
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {

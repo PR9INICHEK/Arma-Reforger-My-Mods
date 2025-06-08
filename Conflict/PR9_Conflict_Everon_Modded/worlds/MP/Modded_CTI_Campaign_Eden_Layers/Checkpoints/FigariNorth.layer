@@ -15,6 +15,80 @@ GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/B
   }
  }
 }
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 5416.906 78.966 5703.431
+ angleX 0.876
+ angleY 11.755
+ angleZ 0.182
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.801 0.022 1.376
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.381 0.058 3.264
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -2.258 0.024 1.386
+   angleY -129.705
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0.001
+     angleX -90
+     angleY 180
+     angleZ -180
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.322 0.197 -1.95
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -2.811 -0.014 0.33
+   angleY -104.623
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.576 -0.076 -3.884
+   angleY -55.621
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -3.056 0.031 1.703
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.445 0.043 2.59
+   angleY 42.427
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.434 -0.047 -2.262
+   angleY 103.572
+  }
+ }
+}
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  Hierarchy "{5CCCBEF0E7D1350C}" {
+   Enabled 1
+  }
+ }
+ coords 5422.777 -0.325 5699.89
+ angleX 19.095
+ angleY 104.18
+ angleZ 6.993
+}
 $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
  {
   coords 5404.152 78.645 5710.698
@@ -117,4 +191,13 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   coords 5445.875 81.636 5692.55
   angleY -60.9
  }
+}
+StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ components {
+  Hierarchy "{5CB0D990A16ADE7E}" {
+   Enabled 1
+  }
+ }
+ coords 5420.354 0 5700.112
+ angleY 93.526
 }

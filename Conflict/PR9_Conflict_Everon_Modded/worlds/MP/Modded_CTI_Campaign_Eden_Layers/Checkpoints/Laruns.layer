@@ -59,3 +59,33 @@ GenericEntity FIA_Car_1 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/Amb
  coords 7112.284 117.013 5448.011
  angleZ -2.684
 }
+StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ coords 7097.957 0 5426.217
+ angleY -93.048
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 7095.472 117.029 5430.207
+ angleX -0.109
+ angleY -130.1
+ angleZ 1.262
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7099.184 -0.346 5425.8
+  angleY -58.583
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7096.707 -0.204 5426.541
+  angleY -72.176
+ }
+}

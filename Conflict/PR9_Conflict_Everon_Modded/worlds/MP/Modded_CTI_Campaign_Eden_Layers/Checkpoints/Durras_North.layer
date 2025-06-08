@@ -2,6 +2,96 @@ GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
  coords 8567.273 126.273 3312.435
  angleY 98.442
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ AT_TEAM_FIA_2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 8555.021 127.058 3316.534
+  angleX -0.244
+  angleY 132.966
+  angleZ 0.185
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.186 -0.321 6.869
+    angleX -0.301
+    angleY -119.977
+    angleZ -0.052
+   }
+  }
+ }
+ FIRE_TEAM_FIA_27 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 8542.327 131.824 3372.792
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 8562.271 126.381 3308.134
+ angleX -3.947
+ angleY 126.8
+ angleZ -0.537
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.737 0 1.052
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.316 0 2.939
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -2.193 0 1.061
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords -0.001 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.796 0.164 -1.996
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -3.158 0 0.525
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 3.059 0.004 -3.998
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -2.992 0 1.377
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.38 0 2.266
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.917 -0.096 -2.376
+  }
+ }
+}
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  Hierarchy "{5CCCBEF0E7D1350C}" {
+   Enabled 1
+  }
+ }
+ coords 8555.275 0.045 3306.082
+ angleY -1.216
+}
 $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
  {
   coords 8602.254 124.511 3300.784
@@ -110,5 +200,25 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   angleX 18.112
   angleY 0.978
   angleZ 12.118
+ }
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   Hierarchy "{5CCCBEF31276C37D}" {
+    Enabled 1
+   }
+  }
+  coords 8556.104 0.004 3305.012
+  angleY -156.671
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF31276C37D}" {
+    Enabled 1
+   }
+  }
+  coords 8557.322 0.007 3306.203
+  angleY -123.296
  }
 }

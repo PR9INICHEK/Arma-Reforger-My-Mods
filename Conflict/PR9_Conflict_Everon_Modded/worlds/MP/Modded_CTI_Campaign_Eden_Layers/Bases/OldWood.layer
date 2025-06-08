@@ -46,6 +46,17 @@ GenericEntity FIRE_TEAM_FIA_14 : "{9273AB931008C271}Prefabs/Systems/AmbientPatro
  }
  coords 3308.521 115.634 4395
 }
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 3269.996 117.918 4489.125
+ angleX -1.056
+ angleY -20.234
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 3316.16 121.634 4434.044
+ angleX -0.324
+ angleY 152.079
+ angleZ 3.208
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
