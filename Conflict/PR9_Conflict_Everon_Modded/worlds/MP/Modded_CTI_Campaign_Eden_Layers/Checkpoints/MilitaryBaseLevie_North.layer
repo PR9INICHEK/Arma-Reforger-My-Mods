@@ -1,0 +1,27 @@
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 7601.853 163.538 4536.515
+ angleY 90.276
+ {
+  StaticModelEntity {
+   ID "5CC6B48215782E1C"
+   coords -6.16 -0.329 1.276
+   angleY 146.264
+  }
+ }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7591.484 163.201 4518.732
+ angleX -1.266
+ angleY -135.158
+ angleZ 0.004
+}

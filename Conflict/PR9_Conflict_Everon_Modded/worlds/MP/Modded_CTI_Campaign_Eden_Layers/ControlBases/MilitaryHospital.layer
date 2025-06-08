@@ -54,6 +54,18 @@ GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  coords 3722.218 1.281 8513.858
  angleY 70.111
 }
+GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160981E15015C5D}" {
+   Points {
+    -3 0 4 -5 0 0 -3 0 -4
+   }
+  }
+ }
+ coords 3826.151 11.48 8496.094
+ angleX -3.905
+ angleY -58.981
+}
 GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
@@ -105,6 +117,13 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  coords 3892.086 15.243 8417.533
  angleY -85.364
 }
+GenericEntity : "{AC84AEB35260CEF8}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_01.et" {
+ coords 3942.814 16.612 8403.146
+ angleY 98.8
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 3890.944 14.208 8508.7
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
@@ -117,4 +136,8 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
   }
  }
  coords 3910.547 15.219 8416.948
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 3905.828 15.219 8416.606
+ angleY -84.701
 }

@@ -1,3 +1,19 @@
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 4997.871 26.694 9859.163
+ angleY -169.199
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 4974.254 24.918 9975.905
+ angleY -106.182
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5154.687 170.865 6930.681
+ angleY 134.014
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5001.417 26.129 10025.211
+ angleX 0.356
+}
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  SENTRY_TEAM_FIA_26 {
   components {

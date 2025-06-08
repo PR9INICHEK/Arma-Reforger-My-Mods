@@ -42,6 +42,22 @@ GenericEntity FIRE_TEAM_FIA_13 : "{9273AB931008C271}Prefabs/Systems/AmbientPatro
  }
  coords 4428.603 63.179 4963.927
 }
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 4449.026 64.383 5025.768
+ angleY -54.078
+}
+GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ coords 4578.684 68.593 4974.128
+ angleY 71.088
+ {
+  GenericEntity {
+   ID "5CCCBECA91C25D11"
+   coords -3.767 -0.107 -0.863
+   angleX 3.605
+   angleY 79.836
+  }
+ }
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {

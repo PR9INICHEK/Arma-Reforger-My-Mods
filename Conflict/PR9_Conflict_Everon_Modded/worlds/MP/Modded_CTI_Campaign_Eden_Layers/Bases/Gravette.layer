@@ -70,6 +70,20 @@ GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 4117.552 39.048 7731.178
  angleY 36.365
 }
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 4051.127 37.496 7958.363
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160981B98B30B7F}" {
+   Points {
+    -8 0 10 -1 0 -6
+   }
+  }
+ }
+ coords 4070.744 32.822 7839.666
+ angleY 127.526
+}
 GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
  coords 4120.761 35.406 7796.203
 }

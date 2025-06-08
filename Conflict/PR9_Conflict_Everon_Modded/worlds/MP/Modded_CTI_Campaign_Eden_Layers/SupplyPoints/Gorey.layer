@@ -1,3 +1,26 @@
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 4903.307 109.304 8162.869
+  angleX -15.909
+  angleY 117.641
+ }
+ {
+  coords 4799.112 118.685 8121.223
+  angleY -150
+ }
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 4894.743 110.981 8149.581
+  angleX 7.733
+  angleY -102.294
+  angleZ 7.266
+ }
+ {
+  coords 4792.181 118.635 8125.515
+  angleY -142.213
+ }
+}
 GenericEntity FIRE_TEAM_FIA_36 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

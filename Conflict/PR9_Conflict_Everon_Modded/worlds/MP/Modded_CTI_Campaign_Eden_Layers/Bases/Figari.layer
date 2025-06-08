@@ -45,6 +45,9 @@ GenericEntity MainTent_Figari : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
  coords 5125.889 52.666 5495.677
  angleY 178.943
 }
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 5090.986 53.687 5498.467
+}
 GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
  coords 5324.448 62.981 5362.325
  angleY -61

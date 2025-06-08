@@ -51,6 +51,11 @@ GenericEntity MainTent_Kermovan : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
   }
  }
 }
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 6370.353 19.464 9720.362
+ angleY -128.667
+ angleZ -0.001
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {

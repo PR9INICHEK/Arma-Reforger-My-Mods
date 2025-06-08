@@ -137,6 +137,10 @@ GenericEntity MainTent_SaintPierre : "{1391CE8C0E255636}Prefabs/Systems/Military
  coords 10172.649 2.628 1539.541
  angleY -76.653
 }
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 10251.262 7.737 1593.027
+ angleY 53.507
+}
 GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  coords 9985.821 2.359 1523.785
  angleY 16.881
@@ -165,6 +169,16 @@ GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicl
   }
  }
  coords 10147.514 2.531 1513.373
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 10073.04 2.531 1552.692
+  angleY -64.773
+ }
+ {
+  coords 10108.094 2.313 1515.578
+  angleY -85.998
+ }
 }
 $grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  {
@@ -342,4 +356,14 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleX -0.243
  angleY 105.744
  angleZ 0.862
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 10028.925 2.687 1594.854
+  angleY 106.207
+ }
+ {
+  coords 9941.11 2.541 1562.344
+  angleY 175.303
+ }
 }

@@ -13,6 +13,22 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 7078.355 115.48 5378.51
  angleY -1.925
 }
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 7093.163 116.934 5439.261
+ angleY -110.046
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -1.829 0.093 -1.133
+   angleY 88.49
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.256 -0.001 -1.752
+   angleY -102.765
+  }
+ }
+}
 GenericEntity AT_TEAM_FIA_24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

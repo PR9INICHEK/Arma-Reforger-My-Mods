@@ -21,6 +21,15 @@ GenericEntity MainTent_CalvaryHill : "{1391CE8C0E255636}Prefabs/Systems/Military
   }
  }
 }
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 3454.658 172.061 5735.45
+ angleY -138.327
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 3543.632 180.206 5811.623
+ angleY 47.848
+ angleZ 2.146
+}
 GenericEntity FIRE_TEAM_FIA_8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

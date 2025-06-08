@@ -30,6 +30,14 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angleY 81.872
  }
 }
+GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ coords 3050.367 113.766 5161.983
+ angleY -28.246
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 3067.575 118.438 5248.037
+ angleY 16.395
+}
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  SENTRY_TEAM_FIA_22 {
   components {

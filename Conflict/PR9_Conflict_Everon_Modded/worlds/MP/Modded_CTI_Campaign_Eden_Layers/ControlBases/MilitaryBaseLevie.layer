@@ -132,9 +132,15 @@ GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_Levi
   }
  }
 }
-GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
- coords 7624.807 166.844 4315.112
- angleY -162.665
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 7624.807 166.844 4315.112
+  angleY -162.665
+ }
+ {
+  coords 7841.875 254.531 4029.39
+  angleY -32.721
+ }
 }
 $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
  {
@@ -145,6 +151,18 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
   coords 7601.512 166.156 4227.194
   angleY -76.679
  }
+ {
+  coords 7890.57 256.625 4006.571
+  angleY -51.694
+ }
+ {
+  coords 7829.86 254.531 4020.952
+  angleY -35.585
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 7492.978 165.76 4243.532
+ angleY -161.833
 }
 GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
  components {
@@ -159,6 +177,14 @@ GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicl
   }
  }
  coords 7471.876 164.568 4327.672
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 7533.946 166.844 4194.496
+ angleY -140.972
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 7510.135 166.701 4212.704
+ angleY -97.461
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  SENTRY_TEAM_FIA_4 {
@@ -322,4 +348,18 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleX -0.555
  angleY 18.997
  angleZ -1.138
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 7595.885 166.832 4325.688
+  angleY -165.551
+ }
+ {
+  coords 7605.477 166.156 4234.577
+  angleY -74.936
+ }
+ {
+  coords 7817.885 254.531 4030.388
+  angleY 145.234
+ }
 }

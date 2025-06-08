@@ -33,6 +33,10 @@ GenericEntity MainTent_OldWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
   }
  }
 }
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 3312.757 115.644 4389.361
+ angleY 133.508
+}
 GenericEntity FIRE_TEAM_FIA_14 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

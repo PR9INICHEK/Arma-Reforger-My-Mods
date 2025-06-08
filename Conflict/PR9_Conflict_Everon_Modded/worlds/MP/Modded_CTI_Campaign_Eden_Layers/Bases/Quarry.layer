@@ -13,6 +13,67 @@ GenericEntity MainTent_Quarry : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/
  coords 8793.418 196.594 3897.421
  angleY -89.149
 }
+GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ coords 8796.678 202.263 3997.239
+ angleY -115.994
+ {
+  GenericEntity {
+   ID "5CC6AA09EB402D5F"
+   coords 1.152 -0.04 0.301
+   angleY 18.331
+  }
+  GenericEntity {
+   ID "5CC6AA09EB402D7A"
+   coords -1.025 -0.015 0.193
+   angleY -7.903
+  }
+  GenericEntity {
+   ID "5CC6B4B0E08C8E09"
+   coords -1.493 0.152 -1.904
+   angleY 61.821
+  }
+  GenericEntity {
+   ID "5CC6B4B0E08C8E56"
+   coords 1.694 0.089 -1.821
+   angleY -92.358
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402AA0"
+   coords -0.223 -0.021 0.203
+   angleY -115.019
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A0C"
+   coords 0.989 0.031 -0.774
+   angleY -1.886
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A13"
+   coords -0.924 -0.128 1.661
+   angleY -47.952
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A57"
+   coords 1.82 -0.129 1.292
+   angleY 50.979
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402AFE"
+   coords -1.871 0.098 -1.098
+   angleY -120.553
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A8E"
+   coords 1.944 -0.057 0.325
+   angleY -74.751
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402AD9"
+   coords -1.984 0.026 -0.133
+   angleY -99.697
+  }
+ }
+}
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  AT_TEAM_FIA_23 {
   components {

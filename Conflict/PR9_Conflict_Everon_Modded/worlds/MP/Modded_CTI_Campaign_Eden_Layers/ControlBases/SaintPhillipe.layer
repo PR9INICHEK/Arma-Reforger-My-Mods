@@ -59,6 +59,17 @@ GenericEntity MainTent_SaintPhillipe : "{1391CE8C0E255636}Prefabs/Systems/Milita
   }
  }
 }
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160980DF3FD3F2C}" {
+   Points {
+    0 0 -8 -7 0 -2 -7 0 2 2 0 8
+   }
+  }
+ }
+ coords 4392.816 1.593 11045.454
+ angleY -151.936
+}
 $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  {
   coords 4434.091 5.811 11205.86
@@ -166,4 +177,8 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  }
  coords 4401.421 2.743 11047.482
  angleY 159.315
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 4431.428 5.813 11236.194
+ angleY 176.963
 }
