@@ -1,3 +1,35 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_4 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5573.103 22.734 10061.277
+  angleY -164.425
+ }
+ CIV_Small_or_Large_3 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5346.197 16.855 10092.696
+  angleY 153.468
+ }
+}
 GenericEntity AT_TEAM_FIA_22 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -73,7 +105,7 @@ StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/Czec
  coords 5372.84 -0.082 9963.026
  angleY -31.436
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Car_36 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {

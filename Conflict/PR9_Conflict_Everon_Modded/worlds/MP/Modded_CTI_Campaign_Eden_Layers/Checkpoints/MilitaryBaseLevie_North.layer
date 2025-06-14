@@ -58,7 +58,7 @@ StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/Czec
  coords 7605.314 0.018 4521.362
  angleY -168.376
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Car_38 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {

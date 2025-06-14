@@ -41,21 +41,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 6550.407 153.549 7121.086
-  angleY 111.42
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     36 37
-    }
-    m_aExcludedEditableEntityLabels {
-     51 52
-    }
-   }
-  }
   coords 6853.639 123.562 6585.442
   angleY -64.461
  }
