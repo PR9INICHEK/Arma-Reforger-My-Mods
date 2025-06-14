@@ -1,4 +1,4 @@
-GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+GenericEntity CIV_Small_or_Large_60 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_iRespawnPeriod 600
@@ -132,7 +132,7 @@ $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMi
   angleY -139.772
  }
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Truck_8 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {

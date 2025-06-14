@@ -51,7 +51,7 @@ $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMi
   angleY 70.54
  }
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Car_42 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {

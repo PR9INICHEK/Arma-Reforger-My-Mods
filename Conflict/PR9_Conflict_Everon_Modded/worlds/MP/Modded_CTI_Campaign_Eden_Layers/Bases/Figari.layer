@@ -1,5 +1,5 @@
 $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- {
+ CIV_Small_or_Large_19 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -14,7 +14,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 5316.337 62.328 5375.344
   angleY -117.422
  }
- {
+ CIV_Small_or_Large_20 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -91,7 +91,7 @@ $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotte
 GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCache_Figari_FIA_01.et" {
  coords 5250.764 73.061 5337.823
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Car_12 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {

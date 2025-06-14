@@ -3,7 +3,7 @@ GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Bui
  angleY 51.088
 }
 $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- {
+ CIV_Small_or_Large_73 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -18,7 +18,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9443.096 44.335 1678.812
   angleY 157.179
  }
- {
+ CIV_Small_or_Large_74 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -33,7 +33,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9690.872 22.755 1722.279
   angleY -61.668
  }
- {
+ CIV_Small_or_Large_75 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -48,7 +48,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9931.608 3.751 1625.375
   angleY -172.84
  }
- {
+ CIV_Small_or_Large_76 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -63,7 +63,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9830.697 7.809 1578.802
   angleY -45.792
  }
- {
+ CIV_Small_or_Large_77 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -78,7 +78,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9805.248 8.219 1588.069
   angleY -176.594
  }
- {
+ CIV_Small_or_Large_78 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -93,7 +93,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9653.14 13.878 1523.871
   angleY 133.099
  }
- {
+ CIV_Small_or_Large_79 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -108,7 +108,7 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9632.564 17.877 1594.623
   angleY -11.443
  }
- {
+ CIV_Small_or_Large_80 {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_iRespawnPeriod 600
@@ -353,7 +353,7 @@ GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 9617.072 22.735 1644.516
  angleY -9.693
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Car_51 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {
