@@ -129,7 +129,7 @@ GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  angleY -88.484
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- SENTRY_TEAM_FIA_5 {
+ SENTRY_TEAM_FIA_33_percent {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.33
@@ -150,7 +150,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- FIRE_TEAM_FIA_5 {
+ FIRE_TEAM_FIA_66_percent {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
