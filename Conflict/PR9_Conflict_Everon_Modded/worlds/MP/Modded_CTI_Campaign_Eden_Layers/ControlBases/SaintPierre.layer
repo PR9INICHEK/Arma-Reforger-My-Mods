@@ -156,7 +156,7 @@ GenericEntity : "{52F4E50D3A7C45C3}Prefabs/Compositions/Misc/SubCompositions/Bui
  coords 9639.281 24.778 1580.977
  angleY 158.781
 }
-GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+GenericEntity USSR_CIV_HELI_2 : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_bStopDespawnOnInteraction 1
