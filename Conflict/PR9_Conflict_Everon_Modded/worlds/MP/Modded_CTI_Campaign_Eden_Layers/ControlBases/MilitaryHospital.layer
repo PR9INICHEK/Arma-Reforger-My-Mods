@@ -151,7 +151,10 @@ GenericEntity FIA_Car_48 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/Am
    }
   }
  }
- coords 3910.547 15.219 8416.948
+ coords 3923.479 14.481 8495.13
+ angleX -2.53
+ angleY 315
+ angleZ -0.035
 }
 GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
  coords 3905.828 15.219 8416.606
