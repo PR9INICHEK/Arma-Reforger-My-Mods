@@ -14,6 +14,15 @@ GenericEntity MainTent_CoastalBase_Chotain : "{1391CE8C0E255636}Prefabs/Systems/
  }
  coords 7473.945 7.866 6694.601
  angleY -18.505
+ {
+  GenericEntity {
+   ID "606078EE23DE48AC"
+   coords -94.087 1.421 -12.993
+   angleX -7.3
+   angleY -2.033
+   angleZ 15.605
+  }
+ }
 }
 GenericEntity : "{2390B74D062A2D13}Prefabs/Compositions/Locations/Eden/Base_ChotainMilitary_FIA_01.et" {
  {
@@ -102,14 +111,16 @@ GenericEntity US_CIV_HELI_1 : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles
    "faction affiliation" "CIV"
   }
  }
- coords 7532.248 2.429 6683.727
- angleY 59.392
+ coords 7508.836 6.013 6740.963
+ angleX -0.541
+ angleY -142.805
+ angleZ 0.713
 }
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
- coords 7462.609 3.748 6647.503
- angleX 3.468
- angleY -145.518
- angleZ 0.826
+ coords 7478.574 6.979 6729.625
+ angleX 1.544
+ angleY -51.495
+ angleZ 2.371
 }
 $grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
  {
@@ -117,13 +128,15 @@ $grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY -43.56
  }
  {
-  coords 7389.424 9.676 6758.691
-  angleY -52.54
+  coords 7503.829 6.249 6714.879
+  angleY -89.712
  }
 }
 GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
- coords 7517.815 5.65 6775.177
- angleY 34.028
+ coords 7505.81 6.665 6761.095
+ angleX 1.544
+ angleY -49.256
+ angleZ 3.687
 }
 GenericEntity SENTRY_TEAM_FIA_1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
