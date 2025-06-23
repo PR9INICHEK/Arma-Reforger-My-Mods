@@ -16,8 +16,10 @@ GenericEntity MainTent_MilitaryHospital : "{1391CE8C0E255636}Prefabs/Systems/Mil
  angleY -85.707
 }
 GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
- coords 3876.591 15.281 8414.389
- angleY -178.575
+ coords 3936.71 15.782 8446.639
+ angleX -3.442
+ angleY -110.144
+ angleZ -1.593
 }
 GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  coords 3917.112 15.312 8418.873
@@ -134,11 +136,14 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  angleY -85.364
 }
 GenericEntity : "{AC84AEB35260CEF8}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_01.et" {
- coords 3942.814 16.612 8403.146
- angleY 98.8
+ coords 3906.667 15.013 8480.511
+ angleX 0.511
+ angleY 158.814
+ angleZ -1.158
 }
 GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
- coords 3890.944 14.208 8508.7
+ coords 3883.367 15.249 8462.408
+ angleY 97.701
 }
 GenericEntity FIA_Car_48 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
