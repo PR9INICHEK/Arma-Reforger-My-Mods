@@ -95,8 +95,7 @@ GenericEntity : "{14C9DB955A3AF38F}Prefabs/Compositions/Misc/SubCompositions/Bui
  angleY -61
 }
 GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
- coords 4890.51 2.505 3890.655
- angleX 3.237
+ coords 4974.818 2.187 3854.408
  angleY -57.24
 }
 GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
@@ -118,12 +117,16 @@ GenericEntity US_CIV_HELI_2 : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles
  coords 4945.548 2.261 3878.742
 }
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
- coords 5045.674 2.225 3834.663
+ coords 5023.56 2.164 3841.511
+ angleX 0.011
  angleY 90.685
+ angleZ -0.895
 }
 GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
- coords 5075.571 5.818 3860.242
- angleY 80.396
+ coords 5073.194 5.479 3866.701
+ angleX 4.553
+ angleY 80.407
+ angleZ 0.136
  {
   GenericEntity {
    ID "5CD2AC4D3DDFDC5C"
@@ -133,8 +136,8 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
  }
 }
 GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
- coords 4904.209 2.167 3880.523
- angleY -149.431
+ coords 4992.931 2.187 3870.2
+ angleY -1.207
 }
 $grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
  {
