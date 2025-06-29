@@ -1,6 +1,6 @@
 GenericEntity : "{047B9C8AAB50CE0F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_01.et" {
- coords 1061.874 2.75 6010.628
- angleY 179.818
+ coords 1003.065 2.858 6051.95
+ angleY 22.954
 }
 GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
  coords 1297.92 46.053 6065.443
@@ -153,8 +153,10 @@ GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  angleY 33.929
 }
 GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
- coords 1074.117 2.813 6199.68
- angleY -173.077
+ coords 1359.34 43.888 5865.97
+ angleX -5.202
+ angleY -56.852
+ angleZ -0.198
 }
 GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_LamentinHarbour_FIA_01.et" {
  coords 1024.018 2.849 6043.247
@@ -177,22 +179,6 @@ GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_Lame
     GenericEntity {
      ID "5E3A731E87593015"
      Flags 1048579
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2FCDBBBC5C"
-   Flags 1049603
-   {
-    GenericEntity {
-     ID "5E6ACA2FCDBBBC5F"
-     Flags 1049603
-     {
-      GenericEntity {
-       ID "5D36C61EF5BF6C53"
-       Flags 1049603
-      }
-     }
     }
    }
   }
@@ -225,7 +211,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- FIRE_TEAM_FIA_1 {
+ FIRE_TEAM_FIA_66_percent_1 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
