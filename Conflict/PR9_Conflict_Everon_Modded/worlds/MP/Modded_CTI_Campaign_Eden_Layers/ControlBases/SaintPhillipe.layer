@@ -67,8 +67,10 @@ GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/B
    }
   }
  }
- coords 4392.816 1.593 11045.454
- angleY -151.936
+ coords 4426.777 1.644 11042.223
+ angleX -0.73
+ angleY 54.593
+ angleZ 0.519
 }
 $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  {
@@ -239,7 +241,7 @@ $grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubComposition
   angleY -13.677
  }
 }
-GenericEntity SENTRY_TEAM_FIA_9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+GenericEntity SENTRY_TEAM_FIA_33_percent_9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
    m_fAILimitThreshold 0.33
