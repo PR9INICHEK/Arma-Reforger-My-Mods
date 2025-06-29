@@ -1,6 +1,8 @@
 GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
- coords 7359.513 163.998 4274.676
- angleY -68.172
+ coords 7466.406 164.532 4297.601
+ angleX 0.374
+ angleY 117.81
+ angleZ 1.209
 }
 GenericEntity MainTent_MilitaryBaseLevie : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
@@ -18,123 +20,6 @@ GenericEntity MainTent_MilitaryBaseLevie : "{1391CE8C0E255636}Prefabs/Systems/Mi
  }
  coords 7449.13 164.562 4306.381
  angleY 104.519
-}
-GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_LevieMilitary_FIA_01.et" {
- {
-  GenericEntity {
-   ID "5E6ACA2F4A7016D5"
-   Flags 1049603
-   {
-    GenericEntity {
-     ID "5E68EB2C6044E7F4"
-     Flags 1049603
-     {
-      GenericEntity {
-       ID "5D36C61EF5BF6C53"
-       Flags 1049603
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2F4A701731"
-   {
-    GenericEntity {
-     ID "5E3A731E4FBE0623"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A731E4FBE0621"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A731E72E52CA8"
-     Flags 1049603
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2F4A701748"
-   {
-    GenericEntity {
-     ID "5E3A731E4FBE0623"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A731E4FBE0621"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A731E72E52CA8"
-     Flags 1049603
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2F4A701784"
-   {
-    GenericEntity {
-     ID "5E3A731E4FBE0623"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A731E4FBE0621"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A731E72E52CA8"
-     Flags 1049603
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2F4A7017C9"
-   {
-    GenericEntity {
-     ID "5E3A731B88FA2A43"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E3A731B1F444C08"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E3A731B1F444C2C"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E3A731B1F444C45"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E3A731B1F444C6C"
-     Flags 1048579
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2F4A701664"
-   {
-    GenericEntity {
-     ID "5E6ACA2FF8E39CE6"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E6ACA2FF8E39F02"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E6ACA2FF8E39F15"
-     Flags 1048579
-    }
-    SCR_SpawnPoint {
-     ID "5E6ACA2FF8E39F2B"
-     Flags 1048579
-    }
-   }
-  }
- }
 }
 GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  coords 7624.807 166.844 4315.112
@@ -169,8 +54,8 @@ GenericEntity USSR_CIV_HELI_3 : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicl
  coords 7471.876 164.568 4327.672
 }
 GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
- coords 7533.946 166.844 4194.496
- angleY -140.972
+ coords 7452.022 164.562 4329.801
+ angleY 120.798
 }
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
  coords 7534.083 163.99 4393.799
@@ -244,8 +129,10 @@ GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/C
  }
 }
 GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
- coords 7510.135 166.701 4212.704
- angleY -97.461
+ coords 7506.698 166.986 4158.187
+ angleX 1.263
+ angleY -139.199
+ angleZ -0.093
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  SENTRY_TEAM_FIA_4 {
@@ -269,7 +156,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- FIRE_TEAM_FIA_4 {
+ FIRE_TEAM_FIA_66_percent_4 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
