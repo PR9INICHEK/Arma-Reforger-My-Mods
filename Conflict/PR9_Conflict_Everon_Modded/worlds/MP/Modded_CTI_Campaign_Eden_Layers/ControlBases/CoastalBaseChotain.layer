@@ -138,7 +138,7 @@ GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  angleY -49.256
  angleZ 3.687
 }
-GenericEntity SENTRY_TEAM_FIA_1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+GenericEntity SENTRY_TEAM_FIA_33_percent_1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
    m_fAILimitThreshold 0.33

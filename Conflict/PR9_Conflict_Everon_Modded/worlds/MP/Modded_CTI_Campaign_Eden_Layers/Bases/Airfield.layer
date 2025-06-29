@@ -48,62 +48,10 @@ GenericEntity MainTent_Airfield : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBas
 GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
  {
   GenericEntity {
-   ID "5E6ACA2CDC303E03"
-   Flags 1049603
-   {
-    GenericEntity {
-     ID "5E6ACA2CDC303E0D"
-     Flags 1049603
-     {
-      GenericEntity {
-       ID "5D36C61EF5BF6C53"
-       Flags 1049603
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
    ID "5E6ACA2CDC303FD8"
-   {
-    GenericEntity {
-     ID "5E3A7310C995AE11"
-     Flags 1049603
-    }
-    GenericEntity {
-     ID "5E3A7311796AB459"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E3A7311796AB47F"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E3A7311796AB5B3"
-     Flags 1048579
-    }
-   }
   }
   GenericEntity {
    ID "5E6ACA2CDC303E8F"
-   {
-    GenericEntity {
-     ID "5E6ACA2FF8E39CE6"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E6ACA2FF8E39F02"
-     Flags 1048579
-    }
-    GenericEntity {
-     ID "5E6ACA2FF8E39F15"
-     Flags 1048579
-    }
-    SCR_SpawnPoint {
-     ID "5E6ACA2FF8E39F2B"
-     Flags 1048579
-    }
-   }
   }
  }
 }
@@ -116,8 +64,10 @@ GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  angleY -93.119
 }
 GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
- coords 4993.671 28.254 11985.85
- angleY 91.816
+ coords 4957.877 28.404 11851.62
+ angleX -0.007
+ angleY -0.454
+ angleZ -0.895
 }
 GenericEntity US_CIV_HELI_3 : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
  components {
@@ -135,11 +85,11 @@ GenericEntity US_CIV_HELI_3 : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles
  angleY 59.392
 }
 GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
- coords 4957.817 28.281 11965.25
- angleY 180
+ coords 4908.164 28.593 11989.875
+ angleY -163.608
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- SENTRY_TEAM_FIA_10 {
+ SENTRY_TEAM_FIA_33_percent_10 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.33
@@ -157,7 +107,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- FIRE_TEAM_FIA_7 {
+ FIRE_TEAM_FIA_66_percent_7 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
