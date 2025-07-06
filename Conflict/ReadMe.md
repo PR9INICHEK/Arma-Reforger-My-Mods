@@ -43,4 +43,5 @@
 
 ## Варианты от других авторов
 1. https://reforger.armaplatform.com/workshop/61B514B96692C049-ConflictPVERemixedVanilla2.0 - **Gramps303**
-2. 
+2. https://reforger.armaplatform.com/workshop/651F6696EA91070C-ConflictEscalation - **Ironbeard**
+3. 
