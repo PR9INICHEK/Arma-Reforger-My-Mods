@@ -27,9 +27,18 @@ GenericEntity MainTent_AndresBeacon : "{1391CE8C0E255636}Prefabs/Systems/Militar
  coords 6852.69 83.067 8200.086
  angleX 2.869
  angleY -172.862
+ {
+  GenericEntity {
+   ID "606078EE23DE48AC"
+   coords -4.623 0.078 -40.86
+   angleX 1.649
+   angleY 0.198
+   angleZ 6.837
+  }
+ }
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- SENTRY_TEAM_FIA_11 {
+ SENTRY_TEAM_FIA_33_percent_11 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.33
@@ -78,10 +87,10 @@ $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotte
   angleZ 0.001
  }
  {
-  coords 6879.067 83.791 8201.157
-  angleX -1.947
-  angleY 122.947
-  angleZ 3.001
+  coords 6878.878 84.006 8214.114
+  angleX -0.563
+  angleY 42.899
+  angleZ 1.92
  }
 }
 GenericEntity FIA_Car_3 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
