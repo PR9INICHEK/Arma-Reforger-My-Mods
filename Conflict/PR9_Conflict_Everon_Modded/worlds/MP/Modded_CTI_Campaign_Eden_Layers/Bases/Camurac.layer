@@ -10,10 +10,10 @@ GenericEntity CIV_Small_or_Large_8 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientV
    }
   }
  }
- coords 6687.698 10.808 3066.018
- angleX -1.718
- angleY 4.305
- angleZ -1.026
+ coords 6691.02 11.04 3061.819
+ angleX -2.676
+ angleY 4.308
+ angleZ -0.201
 }
 GenericEntity MainTent_Camurac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
@@ -80,10 +80,10 @@ GenericEntity FIA_Car_6 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/Amb
    }
   }
  }
- coords 6654.996 8.264 3140.689
- angleX -5.561
- angleY -34.502
- angleZ -8.024
+ coords 6653.406 8.422 3154.634
+ angleX 0.038
+ angleY -35.257
+ angleZ -7.655
 }
 GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
  coords 6662.065 8.696 3152.427
