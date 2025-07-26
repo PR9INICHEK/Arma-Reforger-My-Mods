@@ -10,8 +10,10 @@ GenericEntity CIV_Small_or_Large_8 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientV
    }
   }
  }
- coords 6695.853 9.725 3222.792
- angleY 4.274
+ coords 6687.698 10.808 3066.018
+ angleX -1.718
+ angleY 4.305
+ angleZ -1.026
 }
 GenericEntity MainTent_Camurac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
@@ -26,25 +28,46 @@ GenericEntity MainTent_Camurac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase
  }
  coords 6635.185 5.902 3119.359
  angleY 169.959
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -31.23 2.717 -17.07
+   angleX -0.882
+   angleY -0.002
+   angleZ 0.156
+  }
+  GenericEntity {
+   ID "606078EE23DE48AC"
+   coords 31.171 -0.571 2.172
+   angleX 4.28
+   angleY 0.283
+   angleZ 3.788
+  }
+ }
 }
 GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
- coords 6601.89 6.202 3102.842
- angleY 153.085
+ coords 6610.489 4.396 3093.329
+ angleX -6.16
+ angleY 108.09
+ angleZ 7.315
 }
 GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
- coords 6686.01 11.34 3051.485
- angleY -177.529
+ coords 6683.947 11.176 3054.619
+ angleX 2.001
+ angleY 117.543
+ angleZ 0.034
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
- coords 6692.626 11.528 3050.489
- angleX 1.711
- angleY 161.806
+ coords 6689.605 11.157 3057.85
+ angleX 2.778
+ angleY 150.652
+ angleZ -0.535
 }
 GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
- coords 6625.931 4.906 3140.567
- angleX 1.877
- angleY 52.047
- angleZ -4.856
+ coords 6606.957 5.583 3125.833
+ angleX -1.924
+ angleY 24.411
+ angleZ 2.074
 }
 GenericEntity FIA_Car_6 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
@@ -57,14 +80,14 @@ GenericEntity FIA_Car_6 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/Amb
    }
   }
  }
- coords 6629.614 5.221 3141.217
- angleX -4.331
- angleY -35.138
- angleZ -4.587
+ coords 6654.996 8.264 3140.689
+ angleX -5.561
+ angleY -34.502
+ angleZ -8.024
 }
 GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
- coords 6673.324 9.577 3185.764
- angleX 0.053
- angleY 16.655
- angleZ 1.102
+ coords 6662.065 8.696 3152.427
+ angleX 1.368
+ angleY 16.549
+ angleZ -1.461
 }
