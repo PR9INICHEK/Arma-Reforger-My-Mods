@@ -17,46 +17,62 @@ GenericEntity MainTent_CalvaryHill : "{1391CE8C0E255636}Prefabs/Systems/Military
  {
   GenericEntity {
    ID "5CCED514A5908822"
-   coords 13.096 -0.092 13.384
+   coords -1.519 -0.412 15.387
+   angleX 1.067
+   angleY 0.035
+   angleZ 1.889
+  }
+  GenericEntity {
+   ID "606078EE23DE48AC"
+   coords 58.208 -4.187 57.179
+   angleX 7.222
+   angleY 0.611
+   angleZ 6.408
   }
  }
 }
 GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
- coords 3454.658 172.061 5735.45
- angleY -138.327
+ coords 3425.586 174.01 5828.092
+ angleX -7.516
+ angleY -139.491
+ angleZ 8.705
 }
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
- coords 3543.632 180.206 5811.623
- angleY 47.848
- angleZ 2.146
+ coords 3574.67 174.959 5836.593
+ angleX -14.147
+ angleY 62.834
+ angleZ -2.569
 }
-GenericEntity FIRE_TEAM_FIA_8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+GenericEntity FIRE_TEAM_FIA_66_percent_8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  components {
   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
    m_eGroupType FIRETEAM
    m_fAILimitThreshold 0.66
   }
  }
- coords 3349.928 159.932 5765.312
+ coords 3567.91 177.421 5829.584
+ angleX -8.731
+ angleY -1.082
+ angleZ 8.075
 }
 $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
  {
-  coords 3491.229 178.057 5774.495
-  angleX -10.908
-  angleY -170.296
-  angleZ 0.821
+  coords 3500.628 180.064 5795.157
+  angleX -6.814
+  angleY -151.932
+  angleZ 1.412
  }
  {
-  coords 3479.802 179.377 5845.189
-  angleX -9.408
-  angleY -45.055
-  angleZ 1.882
+  coords 3505.4 182.101 5830.078
+  angleX -1.565
+  angleY -11.98
+  angleZ 1.247
  }
  {
-  coords 3452.369 177.177 5812.386
-  angleX -7.832
-  angleY -102.017
-  angleZ 1.661
+  coords 3484.524 180.682 5814.65
+  angleX -1.801
+  angleY -90.099
+  angleZ -6.236
  }
 }
 GenericEntity FIA_Car_5 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
@@ -70,5 +86,6 @@ GenericEntity FIA_Car_5 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/Amb
    }
   }
  }
- coords 3472.78 179.875 5805.254
+ coords 3532.651 180.98 5821.186
+ angleZ 4.467
 }
