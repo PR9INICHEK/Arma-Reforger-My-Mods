@@ -13,11 +13,28 @@ GenericEntity MainTent_BlackLake : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBa
  angleX -2
  angleY 30.644
  angleZ -0.842
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -44.078 1.914 -0.951
+   angleX 9.752
+   angleY -0.314
+   angleZ -1.851
+  }
+  GenericEntity {
+   ID "606078EE23DE48AC"
+   coords 29.067 2.818 -28.708
+   angleX -2.456
+   angleY 0.166
+   angleZ -3.875
+  }
+ }
 }
 GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
- coords 9406.517 210.439 2956.115
- angleX 0.001
- angleY -22.957
+ coords 9378.132 210.22 2987.162
+ angleX 5.18
+ angleY -17.667
+ angleZ -7.223
  {
   GenericEntity {
    ID "5CCCBEE868D6B36C"
@@ -42,10 +59,19 @@ GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Ch
 }
 $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
  {
-  coords 9499.939 209.407 2939.396
-  angleX 4.33
-  angleY 106.313
-  angleZ -5.231
+  coords 9455.594 208.6 2967.638
+  angleX -5.136
+  angleY 106.526
+  angleZ -1.521
+  {
+   StaticModelEntity {
+    ID "5D1ED9174DD932C1"
+    coords -6.46 -0.099 1.41
+    angleX 1.541
+    angleY 170.49
+    angleZ 1.977
+   }
+  }
  }
  {
   coords 9451.466 210.981 2929.624
@@ -54,9 +80,10 @@ $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotte
   angleZ 1.403
  }
  {
-  coords 9404.046 212.933 2884.087
-  angleX -0.001
-  angleY -79.194
+  coords 9466.648 214.989 2898.07
+  angleX 5.847
+  angleY 130.952
+  angleZ -6.696
   {
    GenericEntity {
     ID "5E5CB3014284530D"
@@ -73,6 +100,27 @@ $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotte
     coords 5.43 -0.337 -1.508
     angleY -73.983
    }
+   GenericEntity {
+    ID "5D1ED9174DD93111"
+    coords 5.887 -0.183 0.727
+    angleX 7.924
+    angleY -79.996
+    angleZ 2.715
+   }
+   StaticModelEntity {
+    ID "5D1ED9174DD93120"
+    coords 5.885 -0.203 1.626
+    angleX 7.633
+    angleY -74.541
+    angleZ 3.454
+   }
+   StaticModelEntity {
+    ID "5D1ED9174DD932F1"
+    coords 6.045 -0.218 1.246
+    angleX 5.919
+    angleY -144.201
+    angleZ -5.933
+   }
   }
  }
 }
@@ -87,8 +135,8 @@ GenericEntity FIA_Car_4 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/Amb
    }
   }
  }
- coords 9464.003 208.138 2962.383
- angleX -3.08
- angleY 50.927
- angleZ -0.955
+ coords 9471.133 211.431 2925.824
+ angleX -5.042
+ angleY 51.144
+ angleZ -6.225
 }
